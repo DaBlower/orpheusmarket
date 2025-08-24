@@ -14,18 +14,18 @@ except requests.exceptions.JSONDecodeError:
 except Exception as e:
     print(f"Failed to contact api: {e}")
 
-reigons = set()
+regions = set()
 for item in response:
-    reigons.update(item["prices"].keys())
+    regions.update(item["prices"].keys())
 
 while True:
-    reigon = input("What reigon are you in? (US, EU, IN, CA, AU, or XX) ")
-    reigon = reigon.upper()
-    if reigon in reigons:
+    region = input("What region are you in? (US, EU, IN, CA, AU, or XX) ")
+    region = region.upper()
+    if region in regions:
         break
     else:
-        print("That isn't a reigon! (Use XX if you aren't in the main reigons)")
-print(f"Reigon is {reigon}")
+        print("That isn't a region! (Use XX if you aren't in the main regions)")
+print(f"region is {region}")
 
 
 print("")
@@ -33,10 +33,10 @@ print(f"{Fore.RED}HEIDIMARKET ITEMS:{Style.RESET_ALL}")
 print("")
 for item in response:
     spaces = 5
-    if reigon in item["prices"]:
+    if region in item["prices"]:
         if item["isBlackMarket"] == True:
-            spaces -= len(str(item["prices"][reigon]))
-            print(f"{Fore.GREEN} Found new project! {Fore.YELLOW}{item["prices"][reigon]}{Fore.BLUE}", end="")
+            spaces -= len(str(item["prices"][region]))
+            print(f"{Fore.GREEN} Found new project! {Fore.YELLOW}{item["prices"][region]}{Fore.BLUE}", end="")
             for i in range(spaces):
                 print("", end=" ")
             print(f"{Fore.BLUE}{item["title"]}{Style.RESET_ALL}")
@@ -52,10 +52,10 @@ print(f"{Fore.RED}NORMAL ITEMS{Style.RESET_ALL}")
 print("")
 for item in response:
     spaces = 5
-    if reigon in item["prices"]:
+    if region in item["prices"]:
         if item["isBlackMarket"] == False:
-            spaces -= len(str(item["prices"][reigon]))
-            print(f"{Fore.GREEN} Found new project! {Fore.YELLOW}{item["prices"][reigon]}{Fore.BLUE}", end="")
+            spaces -= len(str(item["prices"][region]))
+            print(f"{Fore.GREEN} Found new project! {Fore.YELLOW}{item["prices"][region]}{Fore.BLUE}", end="")
             for i in range(spaces):
                 print("", end=" ")
             print(f"{Fore.BLUE}{item["title"]}{Style.RESET_ALL}")
