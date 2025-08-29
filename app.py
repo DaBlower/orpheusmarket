@@ -24,12 +24,21 @@ def home():
             <a href="{buy_url}"><button type="button"><img style="width: 1.5rem; padding: 0.2rem" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/6c0178740fa623a059182d076f44031600d079d5_shell.png"/>{price} needed</button></a>
         </div>        
         """
+    css = """
+    <style>
+        .bar{
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: white;} 
+    </style>"""
     html = """
     <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {{css|safe}}
         <title>orpheus market</title>
     </head>
     <body>
@@ -41,7 +50,7 @@ def home():
     </html>
 
     """
-    return render_template_string(html, card_html=card_html)
+    return render_template_string(html, card_html=card_html, css=css)
 
 
 
