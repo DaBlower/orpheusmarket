@@ -18,7 +18,7 @@ def home():
 
         card_html += f"""
         <div class="card" id="card_{item_id}">
-            <img src="{image}" class="item_image" id="img_{item_id}"/>
+            <img src="{image}" loading="lazy" class="item_image" id="img_{item_id}"/>
             <h2 class="item_title" id="title_{item_id}">{title}</h2>
             <p class="item_description" id="desc_{item_id}">{description}</p>
             <a href="{buy_url}"><button type="button"><img style="width: 1.5rem; padding: 0.2rem" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/6c0178740fa623a059182d076f44031600d079d5_shell.png"/>{price} needed</button></a>
