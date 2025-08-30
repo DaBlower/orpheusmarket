@@ -30,7 +30,13 @@ def home():
             position: sticky;
             top: 0;
             z-index: 10;
-            background: white;} 
+            background: white;
+            
+            } 
+        .bar > a{
+            text-decoration: none;
+            color: inherit;
+        }
     </style>"""
     html = """
     <!DOCTYPE html>
@@ -43,7 +49,7 @@ def home():
     </head>
     <body>
         <div class="bar">
-            <h1 class="orpheusmarket">orpheusmarket</h1>
+            <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1></a>
         </div>
         {{card_html|safe}}
     </body>
