@@ -26,6 +26,11 @@ def home():
         """
     css = """
     <style>
+        .card{
+            display: flex;
+            background-color: grey;
+            border-color: grey;
+        }
         .bar{
             position: sticky;
             top: 0;
