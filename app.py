@@ -45,7 +45,7 @@ def home():
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             padding: 16px;
-            margin: 16px 0;
+            margin: 0 16px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.05);
             overflow: hidden;
         }
@@ -53,8 +53,8 @@ def home():
             width: 120px;
             height: 120px;
             object-fit: cover;
-            border-radius: 8px;
             margin-right: 32px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1)
         }
         .card-content{
             display: flex;
