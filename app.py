@@ -1,15 +1,33 @@
-from flask import Flask, render_template_string
+from flask import Flask, render_template_string, session, request
 from get_data import get_data
+from dotenv import load_dotenv
+import os
+
+load_dotenv() # load env
 
 app = Flask(__name__)
-
+app.secret_key = os.getenv("FLASK_SECRET_KEY")
 BM_ITEMS = get_data()
+
+allowed_regions = {"US", "EU", "IN", "CA", "AU", "XX"}
 
 @app.route("/")
 def home():
+    session.permanent = True
     card_html = ""
+    region = request.args.get('region', session.get("region", "XX")).upper()
+
+    if region not in allowed_regions:
+        region = "XX"
+
+    session["region"] = region
+
     for item in BM_ITEMS:
         price = item["prices"].get("XX")
+        if region in item["prices"]:
+            price = item["prices"].get(region)
+        else:
+            price = item["prices"].get("XX")
         title = item.get("title")
         description = item.get("description")
         image = item.get("imageUrl")
@@ -31,6 +49,7 @@ def home():
             </div>
         </div>        
         """
+
     css = """
     <style>
         body {
@@ -91,6 +110,7 @@ def home():
             color: inherit;
         }
     </style>"""
+
     html = """
     <!DOCTYPE html>
     <html lang="en">
@@ -104,12 +124,24 @@ def home():
         <div class="bar">
             <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1></a>
         </div>
+        <div class="region-container">
+            <form method="get" action="/">
+                <select id="region-selector" name="region" onchange="this.form.submit()">
+                    <option value="US" {% if region == 'US' %}selected{% endif %}> United States </option>
+                    <option value="EU" {% if region == 'EU' %}selected{% endif %}> EU + UK </option>
+                    <option value="IN" {% if region == 'IN' %}selected{% endif %}> India </option>
+                    <option value="CA" {% if region == 'CA' %}selected{% endif %}> Canada </option>
+                    <option value="AU" {% if region == 'AU' %}selected{% endif %}> Australia </option>
+                    <option value="XX" {% if region == 'XX' %}selected{% endif %}> Rest of World </option>
+                </select>
+            </form>
+        </div>
         {{card_html|safe}}
     </body>
     </html>
-
     """
-    return render_template_string(html, card_html=card_html, css=css)
+
+    return render_template_string(html, card_html=card_html, css=css, region=region)
 
 
 
