@@ -23,32 +23,37 @@ def home():
     session["region"] = region
 
     for item in BM_ITEMS:
-        price = item["prices"].get("XX")
+        region_in_store = False
         if region in item["prices"]:
             price = item["prices"].get(region)
-        else:
+            region_in_store = True
+        elif "XX" in item["prices"]:
             price = item["prices"].get("XX")
-        title = item.get("title")
-        description = item.get("description")
-        image = item.get("imageUrl")
-        buy_url = item.get("purchaseUrl")
-        item_id = item.get("id")
+            region_in_store = True
+        else:
+            region_in_store = False
+        if region_in_store == True:
+            title = item.get("title")
+            description = item.get("description")
+            image = item.get("imageUrl")
+            buy_url = item.get("purchaseUrl")
+            item_id = item.get("id")
 
-        card_html += f"""
-        <div class="card" id="card_{item_id}">
-            <img src="{image}" loading="lazy" class="item_image" id="img_{item_id}"/>
-            <div class="card-content">
-                <h2 class="item_title" id="title_{item_id}">{title}</h2>
-                <p class="item_description" id="desc_{item_id}">{description}</p>
-                <a href="{buy_url}" class="buy-link">
-                    <button type="button" class="buy_button">
-                        <img class="shell-icon" style="padding: 0.2rem" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/6c0178740fa623a059182d076f44031600d079d5_shell.png"/>
-                        <span>{price} needed</span>
-                    </button>
-                </a>
-            </div>
-        </div>        
-        """
+            card_html += f"""
+            <div class="card" id="card_{item_id}">
+                <img src="{image}" loading="lazy" class="item_image" id="img_{item_id}"/>
+                <div class="card-content">
+                    <h2 class="item_title" id="title_{item_id}">{title}</h2>
+                    <p class="item_description" id="desc_{item_id}">{description}</p>
+                    <a href="{buy_url}" class="buy-link">
+                        <button type="button" class="buy_button">
+                            <img class="shell-icon" style="padding: 0.2rem" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/6c0178740fa623a059182d076f44031600d079d5_shell.png"/>
+                            <span>{price} needed</span>
+                        </button>
+                    </a>
+                </div>
+            </div>        
+            """
 
     css = """
     <style>
