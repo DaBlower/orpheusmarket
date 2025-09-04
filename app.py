@@ -104,6 +104,7 @@ def home():
             font-family: Arial, sans-serif;
             border: 2px solid #000;
             border-radius: 4px;
+            background-color: #f9f9f9;
         }
         .region-selector:focus {
             border-color: #000;
