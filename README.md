@@ -2,7 +2,7 @@
 this is a _replica_ with the actual stock and products in the real SOM heidimarket!
 
 ## What I used
-I used [`@mahad`'s](https://hackclub.slack.com/team/U059VC0UDEU) [api](https://summer.skyfall.dev/api/shop) to get the list of items and their properties (like price and image) and Flask as the framework.
+I used [`@mahad`](https://hackclub.slack.com/team/U059VC0UDEU)'s [api](https://summer.skyfall.dev/api/shop) to get the list of items and their properties (like price and image) and Flask as the framework.
 
 ## Test it out!
 You can test it out at [orpheusmarket.vercel.app](https://orpheusmarket.vercel.app)
