@@ -60,6 +60,9 @@ def home():
     css = """
     <style>
         body {
+            /* prevent horizontal scrolling, especially on mobile */
+            overflow-x: hidden;
+            max-width: 100vw;
             font-family: sans-serif;
             background-color: #fff;
             margin: 0;
@@ -151,6 +154,18 @@ def home():
             height: auto;
             vertical-align: middle;
         }
+        .footer{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .footer > a{
+            text-decoration: none;
+            color: black;
+            vertical-align: baseline;
+        }
     </style>"""
 
     html = """
@@ -183,6 +198,7 @@ def home():
             </div>
         </div>
         {{card_html|safe}}
+        <div class="footer"><a href="https://github.com/DaBlower">Made with ❤️ by obob!</a></div>
     </body>
     </html>
     """
