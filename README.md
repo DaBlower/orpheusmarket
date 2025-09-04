@@ -1,0 +1,22 @@
+# orpheusmarket
+this is a _replica_ with the actual stock and products in the real SOM heidimarket!
+
+## What I used
+I used [`@mahad`'s](https://hackclub.slack.com/team/U059VC0UDEU) [api](https://summer.skyfall.dev/api/shop) to get the list of items and their properties (like price and image) and Flask as the framework.
+
+## Test it out!
+You can test it out at [orpheusmarket.vercel.app](https://orpheusmarket.vercel.app)
+
+*OR*
+
+You can setup a Flask development server by
+1. Creating a virtual environment
+`python3 -m venv venv`
+2. Activating it
+Windows: `venv\Scripts\activate`
+Linux/MacOS: `source venv/bin/activate`
+3. Installing dependencies
+`pip install -r requirements.txt`
+4. Running Flask
+`flask --app app run`
+You can now access it at the location that Flask provides! (i.e. localhost:5000)
