@@ -134,10 +134,22 @@ def home():
             top: 0;
             z-index: 10;
             background: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             } 
         .bar > a{
             text-decoration: none;
             color: inherit;
+        }
+        .orpheusmarket{
+            display: inline-block;
+        }
+        .dino{
+            margin-left: 15px;
+            max-width: 40px;
+            height: auto;
+            vertical-align: middle;
         }
     </style>"""
 
@@ -152,7 +164,7 @@ def home():
     </head>
     <body>
         <div class="bar">
-            <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1></a>
+            <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1><img src="/static/orpheus.png" class="dino"/></a>
         </div>
         <div class="region">
             <h3>Choose your region</h3>
