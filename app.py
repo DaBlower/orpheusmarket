@@ -35,6 +35,8 @@ def home():
         if region_in_store == True:
             title = item.get("title")
             description = item.get("description")
+            # temporary for school lol
+            # description = description.replace("fuc", "duc")
             image = item.get("imageUrl")
             buy_url = item.get("purchaseUrl")
             item_id = item.get("id")
@@ -73,6 +75,17 @@ def home():
             box-shadow: 0 4px 8px rgba(0,0,0,0.05);
             overflow: hidden;
         }
+        .region{
+            display: block;
+            align-items: center;
+            text-align: center;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 16px;
+            margin: 0 16px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
         .item_image{
             width: 120px;
             height: 120px;
@@ -84,6 +97,13 @@ def home():
             display: flex;
             flex-direction: column;
             flex-grow: 1;
+        }
+        .region-selector{
+            padding: 12px 16px;
+            font-size: 1.1em;
+            font-family: Arial, sans-serif;
+            border: 2px solid;
+            border-radius: 4px;
         }
         .shell-icon{
             width: 1.2rem;
@@ -129,17 +149,21 @@ def home():
         <div class="bar">
             <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1></a>
         </div>
-        <div class="region-container">
-            <form method="get" action="/">
-                <select id="region-selector" name="region" onchange="this.form.submit()">
-                    <option value="US" {% if region == 'US' %}selected{% endif %}> United States </option>
-                    <option value="EU" {% if region == 'EU' %}selected{% endif %}> EU + UK </option>
-                    <option value="IN" {% if region == 'IN' %}selected{% endif %}> India </option>
-                    <option value="CA" {% if region == 'CA' %}selected{% endif %}> Canada </option>
-                    <option value="AU" {% if region == 'AU' %}selected{% endif %}> Australia </option>
-                    <option value="XX" {% if region == 'XX' %}selected{% endif %}> Rest of World </option>
-                </select>
-            </form>
+        <div class="region">
+            <h3>Choose your region</h3>
+            <p>Prices and availability vary by region</p>
+            <div class="region-container">
+                <form method="get" action="/">
+                    <select id="region-selector" class="region-selector" name="region" onchange="this.form.submit()">
+                        <option value="US" {% if region == 'US' %}selected{% endif %}> United States </option>
+                        <option value="EU" {% if region == 'EU' %}selected{% endif %}> EU + UK </option>
+                        <option value="IN" {% if region == 'IN' %}selected{% endif %}> India </option>
+                        <option value="CA" {% if region == 'CA' %}selected{% endif %}> Canada </option>
+                        <option value="AU" {% if region == 'AU' %}selected{% endif %}> Australia </option>
+                        <option value="XX" {% if region == 'XX' %}selected{% endif %}> Rest of World </option>
+                    </select>
+                </form>
+            </div>
         </div>
         {{card_html|safe}}
     </body>
