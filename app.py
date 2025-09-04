@@ -96,7 +96,7 @@ def home():
         .buy_button{
             display: inline-flex;
             align-items: center;
-            background-color: #8b60ad;
+            background-color: #82AD60;
             color: white;
             border: none;
             padding: 10px 15px;
