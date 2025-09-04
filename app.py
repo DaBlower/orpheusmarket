@@ -102,8 +102,12 @@ def home():
             padding: 12px 16px;
             font-size: 1.1em;
             font-family: Arial, sans-serif;
-            border: 2px solid;
+            border: 2px solid #000;
             border-radius: 4px;
+        }
+        .region-selector:focus {
+            border-color: #000;
+            outline: none;
         }
         .shell-icon{
             width: 1.2rem;
