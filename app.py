@@ -90,6 +90,18 @@ def home():
                 </form>
             </div>
         </div>
+        <div class="card">
+            <img src="/static/orpheus.png" loading="lazy" class="item_image"/>
+            <div class="card-content">
+                <h2 class="item-title">Follow me on SOM!</h2>
+                <p class="item_description">this was a project made for Hack Club's Summer of Making!</p>
+                <a href="https://summer.hackclub.com/projects/12114" class="buy-link">
+                    <button type="button" class="buy_button">
+                        <span>Follow!</span>
+                    </button>
+                </a>
+            </div>
+        </div>
         {{card_html|safe}}
         <div class="footer"><a href="https://github.com/DaBlower">Made with ❤️ by obob!</a></div>
     </body>
