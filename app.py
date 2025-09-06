@@ -17,6 +17,8 @@ def home():
     card_html = ""
     region = request.args.get('region', session.get("region", "XX")).upper()
 
+    school = request.args.get('school', type=bool, default=False)
+
     if region not in allowed_regions:
         region = "XX"
 
@@ -36,7 +38,8 @@ def home():
             title = item.get("title")
             description = item.get("description")
             # temporary for school lol
-            # description = description.replace("fuc", "duc")
+            if school:
+                description = description.replace("fuc", "duc")
             image = item.get("imageUrl")
             buy_url = item.get("purchaseUrl")
             item_id = item.get("id")
@@ -57,117 +60,6 @@ def home():
             </div>        
             """
 
-    css = """
-    <style>
-        body {
-            /* prevent horizontal scrolling, especially on mobile */
-            overflow-x: hidden;
-            max-width: 100vw;
-            font-family: sans-serif;
-            background-color: #fff;
-            margin: 0;
-            padding: 20px;
-        }
-        .card{
-            display: flex;
-            align-items: center;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            padding: 16px;
-            margin: 0 16px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            overflow: hidden;
-        }
-        .region{
-            display: block;
-            align-items: center;
-            text-align: center;
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            padding: 16px;
-            margin: 0 16px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            overflow: hidden;
-        }
-        .item_image{
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            margin-right: 32px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1)
-        }
-        .card-content{
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-        }
-        .region-selector{
-            padding: 12px 16px;
-            font-size: 1.1em;
-            font-family: Arial, sans-serif;
-            border: 2px solid #000;
-            border-radius: 4px;
-            background-color: #f9f9f9;
-        }
-        .region-selector:focus {
-            border-color: #000;
-            outline: none;
-        }
-        .shell-icon{
-            width: 1.2rem;
-            height: 1.2rem;
-            margin-right: 8px;
-        }
-        .buy-link{
-            align-self: flex-start;
-        }
-        .buy_button{
-            display: inline-flex;
-            align-items: center;
-            background-color: #82AD60;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            font-size: 1em;
-            cursor: pointer;
-            text_decoration: none;
-        }
-        .bar{
-            position: sticky;
-            top: 0;
-            z-index: 10;
-            background: white;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            } 
-        .bar > a{
-            text-decoration: none;
-            color: inherit;
-        }
-        .orpheusmarket{
-            display: inline-block;
-        }
-        .dino{
-            margin-left: 15px;
-            max-width: 40px;
-            height: auto;
-            vertical-align: middle;
-        }
-        .footer{
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .footer > a{
-            text-decoration: none;
-            color: black;
-            vertical-align: baseline;
-        }
-    </style>"""
-
     html = """
     <!DOCTYPE html>
     <html lang="en">
@@ -175,6 +67,7 @@ def home():
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         {{css|safe}}
+        <link rel="stylesheet" href="static/style.css">
         <title>orpheus market</title>
     </head>
     <body>
@@ -203,7 +96,7 @@ def home():
     </html>
     """
 
-    return render_template_string(html, card_html=card_html, css=css, region=region)
+    return render_template_string(html, card_html=card_html, region=region)
 
 
 
