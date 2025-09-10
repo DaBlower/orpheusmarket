@@ -11,6 +11,11 @@ BM_ITEMS = get_data()
 
 allowed_regions = {"US", "EU", "IN", "CA", "AU", "XX"}
 
+@app.route("/.env")
+def fu():
+    return "fuck you bot :D"
+
+
 @app.route("/")
 def home():
     session.permanent = True
@@ -114,4 +119,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=38015)
