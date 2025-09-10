@@ -12,6 +12,12 @@ BM_ITEMS = get_data()
 allowed_regions = {"US", "EU", "IN", "CA", "AU", "XX"}
 
 @app.route("/.env")
+@app.route("/.git/config")
+@app.route("/js/lkk_ch.js")
+@app.route("/config.php")
+@app.route("/config.xml")
+@app.route("/.ssh/id_ed25519")
+@app.route("/database.sql")
 def fu():
     return "fuck you bot :D"
 
