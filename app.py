@@ -9,6 +9,9 @@ app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY")
 BM_ITEMS = get_data()
 
+warn = BM_ITEMS[1]
+BM_ITEMS = BM_ITEMS[0]
+
 allowed_regions = {"US", "EU", "IN", "CA", "AU", "XX"}
 
 @app.route("/.env")
@@ -24,10 +27,6 @@ def fu():
 
 @app.route("/")
 def home():
-    if BM_ITEMS == 5:
-        return "JSON Decode Error! Please contact obob@duck.com!"
-    elif BM_ITEMS == 6:
-        return "Failed to contact API! Please contact obob@duck.com!"
     session.permanent = True
     card_html = ""
     region = request.args.get('region', session.get("region", "XX")).upper()
@@ -38,6 +37,18 @@ def home():
         region = "XX"
 
     session["region"] = region
+
+    warning_html = ""
+    if warn == True:
+        warning_html = """
+        <div class="card">
+            <img src="/static/noo.png" loading="lazy" class="item_image"/>
+            <div class="card-content">
+                <h2 class="item-title"><span style="color: orange;">Warning:</span> This is a backup!</h2>
+                <p class="item_description">currently, the api i'm using is down D: so for now, this site will use a backup. It might be a bit outdated, so sorry for any inconvenience!</p>
+            </div>
+        </div>
+        """
 
     for item in BM_ITEMS:
         region_in_store = False
@@ -105,6 +116,7 @@ def home():
                 </form>
             </div>
         </div>
+        {{warning_html|safe}}
         <div class="card">
             <img src="/static/orpheus.png" loading="lazy" class="item_image"/>
             <div class="card-content">
@@ -123,7 +135,7 @@ def home():
     </html>
     """
 
-    return render_template_string(html, card_html=card_html, region=region)
+    return render_template_string(html, card_html=card_html, region=region, warning_html=warning_html)
 
 
 

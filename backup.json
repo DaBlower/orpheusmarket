@@ -1,0 +1,2663 @@
+[
+    {
+        "title": "Lottery Ticket",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/20015e44c154a394811dea810a8cf866739c3aab_2025_09_01_0l3_Kleki.png",
+        "description": "Round 2. Put in shells for a pot. Each ticket gives you a even shot at the pool. Winner drawn September 30th",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/213/buy",
+        "id": 213,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 10,
+            "EU": 10,
+            "IN": 10,
+            "CA": 10,
+            "AU": 10,
+            "XX": 10
+        },
+        "imageHash": "bfb686a5cc069d83cd14899d99bb1b70557c736ab328a084b90cc98a54c662b3"
+    },
+    {
+        "title": "Tip the Fraud Team",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/e56e69c9a2f6740536675e03b1ff0120fb200d14_2025_09_02_00y_Kleki.png",
+        "description": "These people work day and night to look at your projects, they should get something in return...",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/217/buy",
+        "id": 217,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 10,
+            "EU": 10,
+            "IN": 10,
+            "CA": 10,
+            "AU": 10,
+            "XX": 10
+        },
+        "imageHash": "9d44ae556e01165c74c7ecda76ae27d04eec8d2e496e1b1e88b1cc02bd1427d8"
+    },
+    {
+        "title": "join a secret channel!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/27084ea782e614dcb640d3bf6d562579c0f6c0f0_sc1.png",
+        "description": "what's in here?",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/221/buy",
+        "id": 221,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 20,
+            "EU": 20,
+            "IN": 20,
+            "CA": 20,
+            "AU": 20,
+            "XX": 20
+        },
+        "imageHash": "185478dc091e731de157e4c7fedae658ef4067a84e7fa3e5f890522928ed638a"
+    },
+    {
+        "title": "Pile of Stickers",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f9a4f4891ae9008dcca7ffeee886710a4e51b273_pile_of_stickers.png",
+        "description": "couple hack club branded stickers",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/46/buy",
+        "id": 46,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 25,
+            "EU": 25,
+            "IN": 25,
+            "CA": 25,
+            "AU": 25,
+            "XX": 25
+        },
+        "imageHash": "71f7c18c05b0899a8c8f552b72f0a57544836f6c34082a40b453d2aec8a9e9ff"
+    },
+    {
+        "title": "TIS-100",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/3ad4fb275a94bbf950364d207fd0fcb4ca3283da_2025_06_17_0i4_Kleki_1_.png",
+        "description": "asm but now in a fun game!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/68/buy",
+        "id": 68,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 32,
+            "EU": 32,
+            "IN": 32,
+            "CA": 32,
+            "AU": 32,
+            "XX": 32
+        },
+        "imageHash": "1f1929fb1025767aedbedb52f46643323a0cb866a837d1f72bf45a4332a450af"
+    },
+    {
+        "title": "Geometry Dash",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/305842824c504818ef27ca92643206f086f4bf2e_capsule_616x353.jpg",
+        "description": "cube jump haha (steam btw)",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/137/buy",
+        "id": 137,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 33,
+            "EU": 33,
+            "IN": 33,
+            "CA": 33,
+            "AU": 33,
+            "XX": 33
+        },
+        "imageHash": "b137f7b83267a1554ebec4ca44a8a17189fd0e55da3ab90b15db161b382d77fb"
+    },
+    {
+        "title": "AI Usage Credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/0c7ca8454fabd2fffa360c8204de5532474ed53b_2025_07_22_0s1_Kleki_2_.png",
+        "description": "Credits for your favorite AI providers!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/131/buy",
+        "id": 131,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 35,
+            "EU": 35,
+            "IN": 35,
+            "CA": 35,
+            "AU": 35,
+            "XX": 35
+        },
+        "imageHash": "aed5f514e1e39f2e0be476b463ba1ff5a5146ec2be21e9ed5a104d9ea84f76db"
+    },
+    {
+        "title": "64GB USB Drive",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2f78931396afbd931a8209d0f1232fa7f171de7a_2025_06_17_10l_Kleki-removebg-preview_1_.png",
+        "description": "great for storing cat pictures",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/51/buy",
+        "id": 51,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 35,
+            "EU": 40,
+            "IN": 35,
+            "CA": 40,
+            "AU": 45,
+            "XX": 45
+        },
+        "imageHash": "15afa223cb3dda4d66e820c825ea18615982cdd5291a7e0a872bbeaed9135de5"
+    },
+    {
+        "title": "Cloudflare credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9b5a949b68e8ebed0a409f602cf897c2cb6a60c0_2025_07_22_0ow_Kleki.png",
+        "description": "good luck bro im behind 7 reverse proxies",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/129/buy",
+        "id": 129,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 35,
+            "EU": 35,
+            "IN": 35,
+            "CA": 35,
+            "AU": 35,
+            "XX": 35
+        },
+        "imageHash": "96f53fbbf4808ec70f47e04dbfb6daf0c9d92d78cd6e4f6fed06ccd6df91a684"
+    },
+    {
+        "title": "JLCPCB Grant",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/280dcc8a9bccfe7601003baa58a23edc95fe3bea_2025_08_09_0qy_Kleki_1_.png",
+        "description": "i think pcb, therefore i am pcb",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/169/buy",
+        "id": 169,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 40,
+            "EU": 40,
+            "IN": 40,
+            "CA": 40,
+            "AU": 40,
+            "XX": 40
+        },
+        "imageHash": "539aa4d0569664b45b59e1c47ad996606e267c876bacecb6ec98c200684fa087"
+    },
+    {
+        "title": "Hot Glue Gun",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/166951ffa6d4a6cfa77d87404d4eeafdcd00d723_2025_06_15_0z5_Kleki_1_.png",
+        "description": "it is a hot glue gun, nothing too special",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/59/buy",
+        "id": 59,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 66,
+            "EU": 66,
+            "IN": 66,
+            "CA": 66,
+            "AU": 66,
+            "XX": 66
+        },
+        "imageHash": "636ebefdf6a1c977999b025ccdcc17f3b7e80f4a66db9f03fa8442518588a9d7"
+    },
+    {
+        "title": "Domain grant",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a021f750b909662dd3932faeecc8b03e6433c760_2025_06_16_0qu_Kleki_1_.png",
+        "description": "RSVP your spot online! (this is a grant for 10$)",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/64/buy",
+        "id": 64,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 45,
+            "EU": 45,
+            "IN": 45,
+            "CA": 45,
+            "AU": 45,
+            "XX": 45
+        },
+        "imageHash": "0fdcd5ef3a0fc341275388877a422dc8054eb26526ef724e72a362c0f697c600"
+    },
+    {
+        "title": "CH341A Programmer",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/4acdb212f6135468c6877995bdacc90a3bcbe587_ch341.png",
+        "description": "flash? serial? PARALLEL? you got it, buddy.",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/60/buy",
+        "id": 60,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 97,
+            "EU": 147,
+            "IN": 147,
+            "CA": 147,
+            "AU": 147,
+            "XX": 147
+        },
+        "imageHash": "cecaac1770a3f46b242c2853d18e26afdd94c4df0236d7ae89596e3231972ebc"
+    },
+    {
+        "title": "iFixit Credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/7983792a4f99801d016ded12e02ac94a8096118b_2025_08_07_0zh_Kleki.png",
+        "description": "parts? tools? sure!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/166/buy",
+        "id": 166,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 47,
+            "EU": 47,
+            "IN": 47,
+            "CA": 47,
+            "AU": 47,
+            "XX": 47
+        },
+        "imageHash": "dd0c37eb3979a85ac8354acba73b5a3c89359e4fb093fbd53c8d83ec4ff726f6"
+    },
+    {
+        "title": "Server hosting credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/50911c37392553aec48f7e41711c0b24032bb457_2025_07_22_0xq_Kleki_1_.png",
+        "description": "Credits for your favorite hosting providers!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/130/buy",
+        "id": 130,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 50,
+            "EU": 50,
+            "IN": 50,
+            "CA": 50,
+            "AU": 50,
+            "XX": 50
+        },
+        "imageHash": "d8699f63cc09cd47dca21828b124bd32050daf1431a3122cdf845d6793fba941"
+    },
+    {
+        "title": "128GB USB Drive",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/60ee0ebbebd0f6241dcab0e29173cec75af0ae4c_image-removebg-preview_9__1_.png",
+        "description": "great for storing more cat pictures",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/88/buy",
+        "id": 88,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 65,
+            "EU": 65,
+            "IN": 65,
+            "CA": 55,
+            "AU": 60,
+            "XX": 65
+        },
+        "imageHash": "de8549b3e02cecf03211281884803c6a33f1a54f800b5fb4d9ebad0b943f03b4"
+    },
+    {
+        "title": "10$ to Signal",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/dbf88416a8e4c4c7ba4e720157c1e361c7c997af_2025_08_20_0t9_Kleki.png",
+        "description": "based",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/200/buy",
+        "id": 200,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 50,
+            "EU": 50,
+            "IN": 50,
+            "CA": 50,
+            "AU": 50,
+            "XX": 50
+        },
+        "imageHash": "2160a5c1d80d2c523c320b17c06a44adc31ee5fc1df40d4ea9f85c989fd42ff4"
+    },
+    {
+        "title": "Logic Analyzer",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/6555d2ded0001aa72829a3006ef399be35b94d2a_2025_06_17_0zp_Kleki_1_.png",
+        "description": "Capture and analyze digital signals",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/81/buy",
+        "id": 81,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 50,
+            "EU": 50,
+            "IN": 50,
+            "CA": 50,
+            "AU": 50,
+            "XX": 50
+        },
+        "imageHash": "69483cdfa3edc0ea4fa89b9c1d12b2a5b86688fd513963d3bab8db403cd0bd3f"
+    },
+    {
+        "title": "Orpheus Pico! (preorder)",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/591a8edd5212c333ae1b6c12af098d1c5644ce32_2025_06_17_0za_Kleki_1_.png",
+        "description": "Hack Club's take on the Raspberry Pi Pico, you will need to solder it yourself",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/76/buy",
+        "id": 76,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 75,
+            "EU": 125,
+            "IN": 150,
+            "CA": 150,
+            "AU": 150,
+            "XX": 150
+        },
+        "imageHash": "86924ea09b0e8bf2f1d05a6dafe8cc994a4e6bdb465c0fe25f2281e82993f2fe"
+    },
+    {
+        "title": "Cat Printer",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/362f076f40e1a31608e672e864120701a817b745_2025_06_15_0z9_Kleki_1_.png",
+        "description": "The printer does not go meow",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/55/buy",
+        "id": 55,
+        "stockRemaining": 0,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 80,
+            "EU": 155,
+            "IN": 155,
+            "CA": 155,
+            "AU": 155,
+            "XX": 155
+        },
+        "imageHash": "38b1994ceca417f347ac03196587a745248cc6fefdfb04f79c10c993540a2fd3"
+    },
+    {
+        "title": "Purelymail credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2ae7af018e8903108527e959a4a1565f543492d6_2025_08_02_0u0_Kleki_1_.png",
+        "description": "Get your email hosted for a whole year!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/148/buy",
+        "id": 148,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 60,
+            "EU": 60,
+            "IN": 60,
+            "CA": 60,
+            "AU": 60,
+            "XX": 60
+        },
+        "imageHash": "c0ee79aa7abb1904657425edc7f8e766f30aa4f23de1125a145073b3c0684eb9"
+    },
+    {
+        "title": "Allen Wrench",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c6e9d83c8dc482ecca6ed5bc2cd60f24ec948016_image-removebg-preview_1_.png",
+        "description": "They see me turnin, they hating...",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/63/buy",
+        "id": 63,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 92,
+            "EU": 92,
+            "IN": 92,
+            "CA": 92,
+            "AU": 92,
+            "XX": 92
+        },
+        "imageHash": "4e2a0f33ff5762175b65c5356383707d09195af39d2506f612a231d638c4dc69"
+    },
+    {
+        "title": "Rubber duck",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/86081bf3ca1232e5247309ab29f64ca5b1500768_2025_08_10_108_Kleki.png",
+        "description": "Standing at 7.2 inches, he is quite the coding companion",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/174/buy",
+        "id": 174,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 75,
+            "EU": 75,
+            "IN": 75,
+            "CA": 75,
+            "AU": 75,
+            "XX": 75
+        },
+        "imageHash": "c633a5134b2b2fccdafb89a803299cc86d82f0b164b401dcf0325e455c50381b"
+    },
+    {
+        "title": "Digital Calipers",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/07cb26e349c8cecb330ec3053ef35b0b727e5ab4_2025_06_17_0zd_Kleki_1_.png",
+        "description": "plastic, but fantastic!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/77/buy",
+        "id": 77,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 102,
+            "EU": 102,
+            "IN": 102,
+            "CA": 102,
+            "AU": 102,
+            "XX": 102
+        },
+        "imageHash": "994d1349feb6521227b8c891a2fd68fc40691e0ac6e724998aa019e0b523b928"
+    },
+    {
+        "title": "E-Fidget",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/ccbcd63ef580a2fb7de63aff01a586f46df4a3ed_2025_07_22_0hy_Kleki_1_.png",
+        "description": "The one and only haptic fidget toy, now mollusk-shaped!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/122/buy",
+        "id": 122,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 79,
+            "EU": 79,
+            "IN": 79,
+            "CA": 79,
+            "AU": 79,
+            "XX": 79
+        },
+        "imageHash": "152ab200ad77a73d79de8903133a7b8329b204cfb21ceb793bae170a7e3a3685"
+    },
+    {
+        "title": "SMD Hotplate",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/7b4598c5932c9b093135e9067da3a5ccd0897fcf_hotplate.avif",
+        "description": "Bring your circuits to life, one reflow at a time.",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/183/buy",
+        "id": 183,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 99,
+            "EU": 99,
+            "IN": 99,
+            "CA": 99,
+            "AU": 99,
+            "XX": 99
+        },
+        "imageHash": "28c9b7126280feaeb7fcba91721fd4aea9dc9902d5e469cb657ff5ed5bdba8bb"
+    },
+    {
+        "title": "256GB USB Drive",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/850801f273cc34bed337fb8f5b2dc922a99579b9_image-removebg-preview_8__1_.png",
+        "description": "great for storing even more cat pictures",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/87/buy",
+        "id": 87,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 125,
+            "EU": 120,
+            "IN": 115,
+            "CA": 125,
+            "AU": 125,
+            "XX": 125
+        },
+        "imageHash": "0cf7f4b4aadf89709a904c8fa16ed17d57f3424df029fd3423cb15f380f1e2ec"
+    },
+    {
+        "title": "Raspberry Pi Zero 2 W",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/0e3363f1fd1b5a771cba06a40e8c3cb99d346aef_2025_06_17_0z6_Kleki_1_.png",
+        "description": "computing on a budget!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/75/buy",
+        "id": 75,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "539e519b323f70c88333fc384f5dc7ae6d66541f960946921db3fa2ccdfbda15"
+    },
+    {
+        "title": "DigiKey/LCSC Credit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/5d2d9006889d17f41f285ec8a3c26142b28ca3dd_2025_07_22_0ou_Kleki_1_.png",
+        "description": "Order anything for your hardware projects, possibilities are endless!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/128/buy",
+        "id": 128,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "f87788a0da8f13ecd6184e31a649aa7b83b7ec8f7c3c8efe09d5b23e31593414"
+    },
+    {
+        "title": "20$ Framework credit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c07e73c2a6eabda6bb3059e06f109feeba7407f7_framework-credit.png",
+        "description": "expand your horizons...? expansion card? get it?",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/120/buy",
+        "id": 120,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 103,
+            "EU": 103,
+            "IN": 103,
+            "CA": 103,
+            "AU": 103
+        },
+        "imageHash": "9b24de19a2e3ebc3cd50ce79ca24c588670047308af2abc0b78bfcc0cbf27385"
+    },
+    {
+        "title": "Proxmark 3 Easy",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/d23bfb1f74bcec674ad3f6d069c43493e724f7d8_2025_06_15_0z6_Kleki_1_.png",
+        "description": "don't do anything we wouldn't do :3 – 512M variant, iceman FW, cards included",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/54/buy",
+        "id": 54,
+        "stockRemaining": 34,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 140,
+            "EU": 160,
+            "IN": 160,
+            "CA": 160,
+            "AU": 160,
+            "XX": 160
+        },
+        "imageHash": "5d4b1fd1e7a65705279d601edf8b131e7e8c7942f1759c46a77b7f4c4daa8cda"
+    },
+    {
+        "title": "Yubikey USB-C",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/d204b180553f5c1da2e4955dd053879677a5e860_2025_06_17_0zr_Kleki_1_.png",
+        "description": "The cooler Hardware backed 2FA",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/82/buy",
+        "id": 82,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 110,
+            "EU": 110,
+            "IN": 110,
+            "CA": 110,
+            "AU": 110,
+            "XX": 110
+        },
+        "imageHash": "53e36dd03256fff139b76d3cd0aa83d1e944d5c200e6111b572b5b73be4e2de1"
+    },
+    {
+        "title": "256GB microSD + adapter",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/91c41027ac1274441eb03245d9fadc08edc8e94f_2025_06_17_0yl_Kleki_1_.png",
+        "description": "this thing can fit so many cat pictures",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/70/buy",
+        "id": 70,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 110,
+            "EU": 110,
+            "IN": 110,
+            "CA": 110,
+            "AU": 110,
+            "XX": 110
+        },
+        "imageHash": "50aee8af3ac682123c7d5e67a62933b0a77438b88fd14d230aa0a6c26a5df82b"
+    },
+    {
+        "title": "Smolhaj",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/441c0d47df0fad0b87068ea2507f96abe9ee03fd_blahaj.png",
+        "description": "friend shark",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/47/buy",
+        "id": 47,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 136,
+            "EU": 211,
+            "IN": 211,
+            "CA": 211,
+            "AU": 211,
+            "XX": 211
+        },
+        "imageHash": "6b9719b35d8ee7a5b3811b6a33c85b32830047b686b5e42ec4e51f844fa7a56c"
+    },
+    {
+        "title": "USB C Cable + Adapter",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/002abe8c3c942d211d14782e8736f99066c272e4_image-removebg-preview_11_.png",
+        "description": "charge up your device, send cat pictures, etc",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/89/buy",
+        "id": 89,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 145,
+            "EU": 122,
+            "IN": 145,
+            "CA": 145,
+            "AU": 145,
+            "XX": 145
+        },
+        "imageHash": "45765a15109b21df7d947296cb2401f4cb6009d9713b02b81307dd2fd718b9b3"
+    },
+    {
+        "title": "ESP32 Kit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/91eecefb3c485e44104f3c3a1222e0cda400a440_2025_08_10_0zp_Kleki.png",
+        "description": "bread boards yummers!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/173/buy",
+        "id": 173,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 125,
+            "EU": 125,
+            "IN": 125,
+            "CA": 125,
+            "AU": 125,
+            "XX": 125
+        },
+        "imageHash": "2a5fb64aae18d91bb75841c297498d62631a4bd78cdf8cb31bccd359b7b19e93"
+    },
+    {
+        "title": "Bambu Lab Credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/7f7cb4da9cac842f4ebe252d51ab5d02e37f8306_2025_07_22_0sx_Kleki_1_.png",
+        "description": "Do you have a Bambu but no filament? Or do you want AMS? You can purchase it all!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/132/buy",
+        "id": 132,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 130,
+            "EU": 130,
+            "IN": 130,
+            "CA": 130,
+            "AU": 130,
+            "XX": 130
+        },
+        "imageHash": "54693b2b481874edcff490f64e89d5fab09997f7622f831c3b4932f7d089b1f8"
+    },
+    {
+        "title": "Qiyi XMD XT3 speedcube",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/3af9090a4964c5ab51ed55e4763143a0a9abbd2f_2025_06_17_0zk_Kleki_1_.png",
+        "description": "this is nora's favorite cube, and we are now selling it",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/80/buy",
+        "id": 80,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 182,
+            "EU": 182,
+            "IN": 182,
+            "CA": 182,
+            "AU": 182,
+            "XX": 182
+        },
+        "imageHash": "ac64a489825638e1bc23f1b5ef3c350b7965020c05df54e70d232153f4cb2aae"
+    },
+    {
+        "title": "shapez 2",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/113b969fdcc635feb2c739dbdeddfefaf8e4e8dc_2025_06_30_0of_Kleki_1_.png",
+        "description": "Dive into a factory-building game with the focus on just that – building huge space factories!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/98/buy",
+        "id": 98,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 137,
+            "EU": 137,
+            "IN": 137,
+            "CA": 137,
+            "AU": 137,
+            "XX": 137
+        },
+        "imageHash": "01b098b3816c11f1f1b19158c04b85b1810e186b7fc2d7b9f9883343361d582e"
+    },
+    {
+        "title": "Dupont Crimping Tool Kit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/69dff1b77b5a3fe2975d858d1861e85277757a11_image-removebg-preview_12_.png",
+        "description": "This tool has three crimping cavities in one tool with color-coded wire markings for three size ranges of insulated terminals",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/90/buy",
+        "id": 90,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 237,
+            "EU": 237,
+            "IN": 162,
+            "CA": 237,
+            "AU": 237,
+            "XX": 237
+        },
+        "imageHash": "faa5f214bb82805a2417429d7cc44f991d0d5a899a8233a223732a3a3e4ff11a"
+    },
+    {
+        "title": "Pinecil",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/21a428cf68a3a88caedf3f963a43f9d63eafdcac_25835_1_kwadrat.png",
+        "description": "64 whole pines!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/50/buy",
+        "id": 50,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 144,
+            "EU": 144,
+            "IN": 144,
+            "CA": 144,
+            "AU": 144,
+            "XX": 144
+        },
+        "imageHash": "3204df2062288cf5c8f6885a7d1e27eec8303be82fe331cd2b509fdd35fb134b"
+    },
+    {
+        "title": "HackDucky",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/210e10936db9924d6a3f16653d108ecd929c52b7_2025_08_13_06e_Kleki.png",
+        "description": "it hacks and it quacks",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/177/buy",
+        "id": 177,
+        "stockRemaining": 32,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 150,
+            "EU": 150,
+            "IN": 150,
+            "CA": 150,
+            "AU": 150,
+            "XX": 150
+        },
+        "imageHash": "ead2f510c7d531d758e8583a179ca57052e2dc5802cacb49c0d27ebf507f6526"
+    },
+    {
+        "title": "dbrand credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c8142ff8b8f1bcc74a35ec5879b2251f0fd25ae3_2025_08_14_0o0_Kleki_1_.png",
+        "description": "Better save your devices, than your doubloons!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/180/buy",
+        "id": 180,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 156,
+            "EU": 156,
+            "IN": 156,
+            "CA": 156,
+            "AU": 156,
+            "XX": 156
+        },
+        "imageHash": "1b1d2cccb771ff85984d7f7bb5cbbf7ef9ad657b4c8af3d65b46bf961b51d24b"
+    },
+    {
+        "title": "25 bucks in IKEA credit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a0cbefa3922716292a58e75826ac416bfa330b7b_ikea.png",
+        "description": "get a BLÅVINGAD... or an AFTONSPARV...or a DJUNGELSKOG..or maybe some furniture? idk",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/117/buy",
+        "id": 117,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 170,
+            "EU": 170,
+            "IN": 170,
+            "CA": 170,
+            "AU": 170,
+            "XX": 170
+        },
+        "imageHash": "0bbf362439b7abbd0fb3511c2b2eee04d62d1ae0a78ae3e1b8173573b8954d47"
+    },
+    {
+        "title": "Factorio",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/ad151df5d63e7b00ad1f5701c3bd82c97cf6614d_2025_06_16_11i_Kleki_1__1_.png",
+        "description": "ah where did the past 5 hours go?",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/67/buy",
+        "id": 67,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 175,
+            "EU": 175,
+            "IN": 175,
+            "CA": 175,
+            "AU": 175,
+            "XX": 175
+        },
+        "imageHash": "27fc0663d427dcd1b244eb866d6c15a365ccd792125794febfadce234d50407f"
+    },
+    {
+        "title": "Brother Label Maker",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9a47f221d02293ca28065af46c23dcbe3d13c7c9_2025_06_15_0z6_Kleki_2__1_.png",
+        "description": "Easy, simple, portable label maker, perfect for silly labels to place anywhere!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/58/buy",
+        "id": 58,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 180,
+            "EU": 180,
+            "IN": 180,
+            "CA": 180,
+            "AU": 180,
+            "XX": 180
+        },
+        "imageHash": "0c7da23299af0fcf93909a8b15606304ba02790695d44615ee6a1b4d235d6294"
+    },
+    {
+        "title": "GitHub Branded Notebook",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9f22d3d54e33eaebafd2b8085515a91c34dbf0ad_2025_08_10_0z3_Kleki.png",
+        "description": "git commit -m \"writing a note here\"",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/172/buy",
+        "id": 172,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 200,
+            "EU": 200,
+            "IN": 200,
+            "CA": 200,
+            "AU": 200,
+            "XX": 200
+        },
+        "imageHash": "1653169e6c201e29ffbee7b5ca7aa1524b154d27dadf1460dcb4f040a452c49e"
+    },
+    {
+        "title": "512GB microSD card",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/1498c3fe47716c1b882affb455a3429ffdb79fd9_2025_08_03_04k_Kleki.png",
+        "description": "this thing can fit so many more cat pictures",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/150/buy",
+        "id": 150,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 200,
+            "EU": 200,
+            "IN": 200,
+            "CA": 200,
+            "AU": 200,
+            "XX": 200
+        },
+        "imageHash": "6ad368609c382bf8bef30512e804ca38423ad05fc44ef760a3f22319ebffff80"
+    },
+    {
+        "title": "Mullvad VPN 6 Month Voucher",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/3c48bd3228c371919f794b4b3f3d56ec6fbd1725_2025_07_23_0iq_Kleki.png",
+        "description": "the worlds best vpn for privacy online!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/143/buy",
+        "id": 143,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 216,
+            "EU": 216,
+            "IN": 216,
+            "CA": 216,
+            "AU": 216,
+            "XX": 216
+        },
+        "imageHash": "bbf3ffe1be01dcfdf442716014f4d236d4ac7a97837a7b54e6c83fefe26ff98f"
+    },
+    {
+        "title": "Squishmallow",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/507c4e39a852177639c0d8374ad70f5019f65a0e_51NYOgboRTL.png",
+        "description": "because whatever the heck nowadays",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/119/buy",
+        "id": 119,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 220,
+            "EU": 220,
+            "IN": 220,
+            "CA": 220,
+            "AU": 220,
+            "XX": 220
+        },
+        "imageHash": "cef6bef17f4ff5e478583191860da8032090b040be5da32a099cd04cf0e558ae"
+    },
+    {
+        "title": "Keychron Credits",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f7266821fbfd762838b6f7b484221d81be54cbde_2025_08_18_0kp_Kleki.png",
+        "description": "buy a keyboard for yourself, or maybe some switches, you decide!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/190/buy",
+        "id": 190,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 225,
+            "EU": 225,
+            "IN": 225,
+            "CA": 225,
+            "AU": 225,
+            "XX": 225
+        },
+        "imageHash": "17e98b06250e36edf9ebafd81bb3303ee74aabe108403be1c26cc2dfb51d2d76"
+    },
+    {
+        "title": "GL.iNet GL-SFT1200",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a48c5666cd0a4de008a2dfd03da6bc61a78dd85b_table_sft1200.png",
+        "description": "open your wrts,,,open them!!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/154/buy",
+        "id": 154,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 250,
+            "EU": 250,
+            "IN": 250,
+            "CA": 250,
+            "AU": 250,
+            "XX": 250
+        },
+        "imageHash": "b9b5fea5035dd916e0fec2fbf2e59ca9d47a075ea21771dc3ba37ec0e872d757"
+    },
+    {
+        "title": "Yubikey USB-A",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/7717aeb4bfd395bb58ee6c4d34eb4a0ea7cee1b2_2025_06_17_109_Kleki_1_.png",
+        "description": "Hardware backed 2FA",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/85/buy",
+        "id": 85,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 300,
+            "EU": 350,
+            "IN": 400,
+            "CA": 375,
+            "AU": 375,
+            "XX": 375
+        },
+        "imageHash": "bb4e2495ad47b3013836b9f7a30b46d1536d3ceace84c6f002c079c1210df3eb"
+    },
+    {
+        "title": "Waveshare 7.5inch E-Ink Display",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f9439f21d33ef9c7d1400ba4d7d50751ba11779c_2025_06_17_0z1_Kleki_1_.png",
+        "description": "(comes with controller pcb, not a pi) refresh rates starting at 0.2hz",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/74/buy",
+        "id": 74,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 427,
+            "EU": 427,
+            "IN": 502,
+            "CA": 427,
+            "AU": 427,
+            "XX": 427
+        },
+        "imageHash": "49b84a7a71af7efd4f68441312802a852e95e21ae243a0c73f05443f5d8897da"
+    },
+    {
+        "title": "Baofeng UV-5R (2 pack)",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/4b6b0195f0fe8d2da8573e62322ddb170c36043c_image-removebg-preview_6__1_.png",
+        "description": "It's a handheld ham radio! Requires an amateur radio license to transmit, check your country's rules",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/83/buy",
+        "id": 83,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 448,
+            "EU": 448,
+            "IN": 398,
+            "CA": 448,
+            "AU": 448,
+            "XX": 448
+        },
+        "imageHash": "93b1be5a49c6727d8e24c119a099d32fd935058b14ae37eb98f83be5ded6856c"
+    },
+    {
+        "title": "min(amame) Parts Kit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/7aef28f5e4195feebec27678a726efcfab54ab46_2025_06_18_0mp_Kleki_1_.png",
+        "description": "DIY Headphones Kit",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/93/buy",
+        "id": 93,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 460,
+            "EU": 460,
+            "IN": 460,
+            "CA": 460,
+            "AU": 460,
+            "XX": 460
+        },
+        "imageHash": "92ee25d4439274cd7bed9b0a81e4ec36e43f38e68a36e8e6494acc26dd085b2d"
+    },
+    {
+        "title": "Icepi Zero!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/ebf33fb042e8801295a0c621c9d9df59f2ab8fcb_2025_08_14_0ej_Kleki.png",
+        "description": "get some ice on such a hot day",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/178/buy",
+        "id": 178,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 405,
+            "EU": 405,
+            "IN": 405,
+            "CA": 405,
+            "AU": 405,
+            "XX": 405
+        },
+        "imageHash": "f9045a4117991e305203e7f611277c12e8a37ccaeb07fd31d3dffe65c199c2ed"
+    },
+    {
+        "title": "CMF Buds Pro 2",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/206907ffab63a122c75516b6d1bd300d6a731111_2025_07_22_0na_Kleki.png",
+        "description": "nothing to hear here!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/123/buy",
+        "id": 123,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 360,
+            "EU": 360,
+            "IN": 360,
+            "CA": 360,
+            "AU": 360
+        },
+        "imageHash": "30031d3455a52b9271ed528d08bbb512929798b727f0a2ce5031cd830028b172"
+    },
+    {
+        "title": "Creality Filament Dryer",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f6523f5de7f5202fe1209304e1e5a67fd689f9f9_Space_Pi_Filament_Dryer_1.webp",
+        "description": "From damp to champ.",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/202/buy",
+        "id": 202,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 400,
+            "EU": 400,
+            "IN": 400,
+            "CA": 400,
+            "AU": 400,
+            "XX": 400
+        },
+        "imageHash": "f5701bb672a3096dba93cf1c4d1a68b72f86841bf97070ccdfa14b5345b0ac21"
+    },
+    {
+        "title": "Oculus Quest 1 (used)",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/d7be8df2cef80ce1dc53730987e9da8017b4414c_Untitled_2015_20copy.png",
+        "description": "it works..!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/153/buy",
+        "id": 153,
+        "stockRemaining": 0,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 495,
+            "EU": 570,
+            "IN": 570,
+            "CA": 520,
+            "AU": 570,
+            "XX": 570
+        },
+        "imageHash": "a2da88dc017741e32258762a432de674e96b5e34a6d48ea89de40e9387035dd7"
+    },
+    {
+        "title": "Transparent LTT Screwdriver",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/22b179af642ec32748d82db255e46cf13bd320c1_Transparent_1_816b64e4-e995-4bb2-a58a-3ac9c3fb7c23.png",
+        "description": "Screwing made crystal clear.",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/193/buy",
+        "id": 193,
+        "stockRemaining": 1,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 450,
+            "EU": 450,
+            "IN": 450,
+            "CA": 450,
+            "AU": 450,
+            "XX": 450
+        },
+        "imageHash": "274cefd761ac3e307c949e1d755313cba6695ed8edcdba7312b3c0be30b96b04"
+    },
+    {
+        "title": "Seagate 2TB external HDD",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/8d0f24ae54e357d83ffa4aa6dfa5f45f8de82915_2025_06_17_10c_Kleki_1_.png",
+        "description": "great for storing all of the cat pictures you could ever need",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/86/buy",
+        "id": 86,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 542,
+            "EU": 492,
+            "IN": 542,
+            "CA": 542,
+            "AU": 542,
+            "XX": 542
+        },
+        "imageHash": "c76218472c76858d9547ed4388ee26ab00acc7592c280cadc8e448c29b1fdace"
+    },
+    {
+        "title": "Logitech MX Master 3S",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c65f9ad640c7c2aa35fa1ad80cf81496e46156c9_image-removebg-preview_4__1_.png",
+        "description": "Wireless, quiet, and full of buttons!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/78/buy",
+        "id": 78,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 670,
+            "EU": 620,
+            "IN": 570,
+            "CA": 670,
+            "AU": 670,
+            "XX": 670
+        },
+        "imageHash": "7cc4dfe28119c7e057bbb73b648c6553cd0c994fcc59500b06326521a89b76c9"
+    },
+    {
+        "title": "Thermal Imager",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/5def8b2d02089e9df08ee94929f8cb1185761a3b_CleanShot_202025-07-16_20at_2011.49.34_2x.png",
+        "description": "for repair! or fun... pretty high res?",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/116/buy",
+        "id": 116,
+        "stockRemaining": 7,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 630,
+            "EU": 665,
+            "IN": 665,
+            "CA": 665,
+            "AU": 665,
+            "XX": 690
+        },
+        "imageHash": "12fa9186d51baab03bb7bdb082b85cda548d94188c44e442c20d89189a6ef91f"
+    },
+    {
+        "title": "1TB Portable SSD",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/d3aa1c4ea996add2a4b2a1032b209192b038ad58_2025_08_14_0g5_Kleki.png",
+        "description": "You can fit so many cat photos in this thing",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/179/buy",
+        "id": 179,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 599,
+            "EU": 599,
+            "IN": 599,
+            "CA": 599,
+            "AU": 599,
+            "XX": 599
+        },
+        "imageHash": "fb5c8fbed697d4116843bd552ff0d34b3c95922460ac1385e3e7b9dc9289668d"
+    },
+    {
+        "title": "K4 desktop laser engraver",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/d938236aac3b8d9387eab856be2e46432fa19094_k4.png",
+        "description": "the diode's kinda wimpy...the software REALLY sucks...could *you* be the one to solve these problems?",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/121/buy",
+        "id": 121,
+        "stockRemaining": 5,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 690,
+            "EU": 750,
+            "IN": 750,
+            "CA": 750,
+            "AU": 750,
+            "XX": 800
+        },
+        "imageHash": "23194a30582cba786b3e4ec1ab346cf494c117751117aaafb5d7e923d32e0a7b"
+    },
+    {
+        "title": "Raspberry Pi 5",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/0e38084cfb8a61f6085da3ab6d586831ff85597c_2025_06_17_0yt_Kleki_1_.png",
+        "description": "Does not come with power adapter or SD card",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/72/buy",
+        "id": 72,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 632,
+            "EU": 657,
+            "IN": 657,
+            "CA": 657,
+            "AU": 657,
+            "XX": 657
+        },
+        "imageHash": "68dfcb59f3db59957f50336ffdfce66d106ebdf6ea00644a5156149e8b48bd5c"
+    },
+    {
+        "title": "head(amame) Parts Kit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/738ca76b7a5f9620a2c569234e8115012e2f5d40_image-removebg-preview_1_.png",
+        "description": "DIY Overear Headphones kit",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/94/buy",
+        "id": 94,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 775,
+            "EU": 775,
+            "IN": 775,
+            "CA": 775,
+            "AU": 775,
+            "XX": 775
+        },
+        "imageHash": "9f0833d247c84c0af44939816aec5a77597d82ad68af7d49e331c55b66d092d3"
+    },
+    {
+        "title": "Glasgow Interface Explorer",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/1c088ac09d4d63f20cb61e694a9cd16998e9e65a_2025_06_15_0z8_Kleki_1_.png",
+        "description": "thingy",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/57/buy",
+        "id": 57,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 762,
+            "EU": 812,
+            "IN": 812,
+            "CA": 812,
+            "AU": 812,
+            "XX": 812
+        },
+        "imageHash": "7449480d78bceb2856e8abf530c257258ecc8188f38af99796dae39a9f0537fa"
+    },
+    {
+        "title": "Polaroid Go Generation 2",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/89b60ca6492f699dc52eec16855cceff1a5d5d52_2025_08_03_04c_Kleki.png",
+        "description": "what if the summer of making was the friends we made along the way?",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/149/buy",
+        "id": 149,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 720,
+            "EU": 720,
+            "IN": 720,
+            "CA": 720,
+            "AU": 720
+        },
+        "imageHash": "e195f4c983b54a033c1e8a2ba8d73b909e7ac78c76144883543a293bdf56bbe2"
+    },
+    {
+        "title": "Logitech G Pro X Superlight",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/ebdef610ecb7a93c74d2bc87d2a64d0b8b1f40e0_image-removebg-preview_5__1_.png",
+        "description": "super high quality mouse used by your favorite gamers",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/79/buy",
+        "id": 79,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 750,
+            "EU": 775,
+            "IN": 850,
+            "CA": 850,
+            "AU": 850,
+            "XX": 850
+        },
+        "imageHash": "5c42d24d4cfeb409b9a092e3177a0b5b566461b93388e97b1548cb4c3b9bbfd8"
+    },
+    {
+        "title": "XPPen Deco Pro MW",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/efde9d596d8196d098107fbae3e1d86549f2b1bb_2025_06_24_0l0_Kleki-removebg-preview_1_.png",
+        "description": "perfect for artists! nice and big, make it your canvas!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/95/buy",
+        "id": 95,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 770,
+            "EU": 820,
+            "IN": 820,
+            "CA": 820,
+            "AU": 820,
+            "XX": 820
+        },
+        "imageHash": "6f95a42c6ec719727031cbc1701f057b89c11dec6ee50452f66af1a3cff785ab"
+    },
+    {
+        "title": "SlimeVR DIY Kit - Full-Body",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/84b1a7407bc25894fbdc0d8eedd0ef3bc507aa5d_2025_09_02_0jc_Kleki.png",
+        "description": "super techy vr tracking system!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/219/buy",
+        "id": 219,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 899,
+            "EU": 899,
+            "IN": 899,
+            "CA": 899,
+            "AU": 899,
+            "XX": 899
+        },
+        "imageHash": "0737ca604496ad80455c6f12206ff89bb1c0c7f9e9a894b8f4ab3b69512f1068"
+    },
+    {
+        "title": "Flipper Zero",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f9c4c6e0e9c2257aa609194f5490feddc478a366_2025_06_15_0th_Kleki.png",
+        "description": "Flipper Zero is a portable multi-tool for pentesters and geeks in a toy-like body, dolphins included",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/49/buy",
+        "id": 49,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 950,
+            "EU": 950,
+            "CA": 950,
+            "AU": 950
+        },
+        "imageHash": "4c1df95d3a90c80520af44101931a73405850f6b1800d7609820183b0a55e575"
+    },
+    {
+        "title": "Bose QuietComfort 45",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/84e208bc82a74ff0ec34a147dcedd737cf102a06_image-removebg-preview_1_.png",
+        "description": "best in class bluetooth headphones!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/125/buy",
+        "id": 125,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1020,
+            "EU": 1170,
+            "IN": 1820,
+            "CA": 1320,
+            "AU": 1520
+        },
+        "imageHash": "813eb0d9a483f58a97e238244c821f79ab3b4930e86d39a21dc23a2148aa4d48"
+    },
+    {
+        "title": "Bambu A1 mini Printer",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9d06a48792412d2b7e5ac20d90a45a8120c79f37_2025_06_17_0yp_Kleki_1_.png",
+        "description": "print your wildest dreams! or that one squid with the rock head",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/71/buy",
+        "id": 71,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1150,
+            "EU": 1125,
+            "IN": 1475,
+            "CA": 1125,
+            "AU": 1125,
+            "XX": 1175
+        },
+        "imageHash": "1cba3a7238b16b9baba5feaddaa27307608a2ab58035cfe210c04d1a5eff27d7"
+    },
+    {
+        "title": "Cricut Explore 3",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/8934ef3160b999a87bb9d7c6e8495e197c606b00_2025_06_15_0td_Kleki.png",
+        "description": "Cricut Explore 3 cuts, draws, scores, and more with speed and precision, letting you make better art, and faster",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/56/buy",
+        "id": 56,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1135,
+            "EU": 1125,
+            "IN": 1175,
+            "CA": 1125,
+            "AU": 1125,
+            "XX": 1175
+        },
+        "imageHash": "c91b97321ae1be8ec763b91225ccc75406ad79f42e3b20276445bb97138bf386"
+    },
+    {
+        "title": "Playdate",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/00996bdccebb39e6cdac54fc896745f320051f2b_image-removebg-preview_13_.png",
+        "description": "Small portable game console",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/91/buy",
+        "id": 91,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1390,
+            "EU": 1390,
+            "IN": 1390,
+            "CA": 1390,
+            "AU": 1390,
+            "XX": 1390
+        },
+        "imageHash": "647cf3e99d293197493eb984adb22a1829d07b19fb28e970f37131b16997179d"
+    },
+    {
+        "title": "100MHZ Oscilloscope",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/7e398eccba95a3defae285e6adf6656d69ac50de_2025_06_17_102_Kleki_1_.png",
+        "description": "Siglent SDS1102CML+",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/84/buy",
+        "id": 84,
+        "stockRemaining": 3,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1632,
+            "EU": 1632,
+            "IN": 1632,
+            "CA": 1632,
+            "AU": 1632,
+            "XX": 1632
+        },
+        "imageHash": "6faf88526ff3f5cd94ee264e627f3d24846dad8937ecfa05cb96eca7af29b7d7"
+    },
+    {
+        "title": "Bambu Labs A1",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c81ecf5b30086b28c2cabbf8440cc9108c5830de_a1.png",
+        "description": "for when you need to print things that aren't mini...",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/118/buy",
+        "id": 118,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1775,
+            "EU": 1750,
+            "IN": 2100,
+            "CA": 1750,
+            "AU": 1750,
+            "XX": 1800
+        },
+        "imageHash": "6bf2d3e4ccfa591f538e929a5972aa7736741f9a25ba366107e55f5a8e16eebc"
+    },
+    {
+        "title": "$500 in Amp credit",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b7cf464bc279902f19e7da04be365991c3d73a7d_2025_06_16_0wu_Kleki_1_.png",
+        "description": "use the coding agent a good chunk of this platform was made with!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/65/buy",
+        "id": 65,
+        "stockRemaining": 4,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1750,
+            "EU": 1750,
+            "IN": 1750,
+            "CA": 1750,
+            "AU": 1750,
+            "XX": 1750
+        },
+        "imageHash": "a7b8bf1dced399b515a281633018538cf054ddceae09440f1c4fa664e30c31f1"
+    },
+    {
+        "title": "Nebula.tv Lifetime subscription",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/ba8e4dc5d1d6079c60336dd9aa6e1d69d1d670d4_2025_06_26_0kf_Kleki_1_.png",
+        "description": "Binge the best that your creators have to offer!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/97/buy",
+        "id": 97,
+        "stockRemaining": 5,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1800,
+            "EU": 1800,
+            "IN": 1800,
+            "CA": 1800,
+            "AU": 1800,
+            "XX": 1800
+        },
+        "imageHash": "78b1489ab29f0159299375918a8e8449ec8e8676d33899aa7d01b837d69e25ab"
+    },
+    {
+        "title": "iPad + Apple Pencil",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/3cc037d64a41833a5ab26a88b70c6e311886bd08_2025_06_16_0qh_Kleki_1_.png",
+        "description": "iPad A16 + Apple Pencil 1st gen",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/62/buy",
+        "id": 62,
+        "stockRemaining": 6,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 2035,
+            "EU": 2535,
+            "IN": 3035,
+            "CA": 2085,
+            "AU": 2035,
+            "XX": 2785
+        },
+        "imageHash": "08b106c8a2df9efeaee31dac3da63981d9919acf0bd9e6584f5551809d2ef781"
+    },
+    {
+        "title": "Nintendo Switch 2",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/5a927f67825f8f1479af090d5e5a3e1284439d1d_image-removebg-preview_6_.png",
+        "description": "mario machine!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/171/buy",
+        "id": 171,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 2587,
+            "EU": 2587,
+            "CA": 2587,
+            "AU": 2587
+        },
+        "imageHash": "a3cda4a8b623e6814e643a97b52e39733370eb1dc712ee9e02dffa9bbc2efb50"
+    },
+    {
+        "title": "M4 Mac Mini",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2b1e283c1a4b4432f32acd25812b7c369eb7dfd7_2025_06_16_0qf_Kleki_1_.png",
+        "description": "16GB Memory, 256GB SSD Storage",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/61/buy",
+        "id": 61,
+        "stockRemaining": 2,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 4050,
+            "EU": 4050,
+            "IN": 4050,
+            "CA": 4050,
+            "AU": 4050,
+            "XX": 4050
+        },
+        "imageHash": "1981adb4b237654d61db43f11e3c62c184e12f368d0e776ce0e96fa60c11ef8c"
+    },
+    {
+        "title": "DJI Mini 4 Pro",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/333a4930edb64d50ff3165892974517f8c1ef3ce_2025_09_02_0iu_Kleki_1_.png",
+        "description": "biblically accurate bird",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/218/buy",
+        "id": 218,
+        "stockRemaining": 3,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 4370,
+            "EU": 4370,
+            "CA": 4370,
+            "AU": 4370
+        },
+        "imageHash": "009964dfbd09d1372f96eefcbd32cea9e81b9047ed967c5049d6ea581294b700"
+    },
+    {
+        "title": "Framework Laptop 12",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/0371fd0329f258ab91d8b25aa0184f008aef0075_2025_06_15_0z4_Kleki_1_.png",
+        "description": "DIY Edition, i3-1315U, 16GB Ram, 500GB Storage + 4 assorted expansion cards!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/48/buy",
+        "id": 48,
+        "stockRemaining": 30,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 4499,
+            "EU": 4499,
+            "CA": 4499,
+            "AU": 4499
+        },
+        "imageHash": "51a3def4e2513c651faaf4b71160fb994345f96ea03215c510aff9c8047d7d54"
+    },
+    {
+        "title": "Prusa Core One",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/6f9d664df52a737df4dbec5ba3d955f8110fa9a5_core_20one.avif",
+        "description": "very nice 3D printer - my favourite!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/204/buy",
+        "id": 204,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 4500,
+            "EU": 4280,
+            "IN": 4900,
+            "CA": 4750,
+            "AU": 4790,
+            "XX": 4800
+        },
+        "imageHash": "b84abf119b9f29a3acb94e04b2ee7a9de55ccada7189c89a995b20db607dd2d2"
+    },
+    {
+        "title": "Prusa MK4S 3D Printer",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/40e95498392e79fb34f1b546b5d44ecf803c0587_image-removebg-preview_1__1_.png",
+        "description": "One of the best 3D printers, useful for any creative",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/96/buy",
+        "id": 96,
+        "stockRemaining": 2,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 5500,
+            "EU": 6000,
+            "IN": 5875,
+            "CA": 5750,
+            "AU": 5800,
+            "XX": 6250
+        },
+        "imageHash": "6d86028f5834d0f1300448cefc4a956a226733e0cdb92d7553ffce23d2d31f5f"
+    },
+    {
+        "title": "13-inch M4 MacBook Air",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/df22a8de1a8b5044c61b3b9ef0dfebaa0f449421_2025_06_16_0x0_Kleki.png",
+        "description": "16GB of memory and 256GB SSD, all in a lightweight form factor!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/66/buy",
+        "id": 66,
+        "stockRemaining": 9,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 4512,
+            "EU": 5762,
+            "IN": 5612,
+            "CA": 4612,
+            "AU": 5262,
+            "XX": 5612
+        },
+        "imageHash": "37d89943f030ebc41216480a8eefd3d41b984119e5934e4aaabdb9fc997fd393"
+    },
+    {
+        "title": "MacBook Pro",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/59c840a830701f499dfd979e74740f616b8439c8_mbp14-spaceblack-cto-hero-202410.png",
+        "description": "M4 14\", 16GB/1TB",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/99/buy",
+        "id": 99,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 8995,
+            "EU": 12665,
+            "IN": 8995,
+            "CA": 8995,
+            "AU": 9245
+        },
+        "imageHash": "9d099a607d0e7a7b84b0ea8e602476f14c11509b50502383895981316b261cd7"
+    },
+    {
+        "title": "Spider",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c521de8172c7046b5832e90a955dba0b5d62fd81_OIP.jpg",
+        "description": "buy a little guy who walks around on your screen all the time!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/110/buy",
+        "id": 110,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 5,
+            "EU": 5,
+            "IN": 5,
+            "CA": 5,
+            "AU": 5,
+            "XX": 5
+        },
+        "imageHash": "8706d1d49a62f96a7a3b343ef68d05e01416681fc6e706ee95cb7398df85aa98"
+    },
+    {
+        "title": "Graphic design is my passion",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/97328a01deac43cd1a47e5eadc178071af16b85b_Lz1N0uK.png",
+        "description": "custom CSS for your profile!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/108/buy",
+        "id": 108,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 10,
+            "EU": 10,
+            "IN": 10,
+            "CA": 10,
+            "AU": 10,
+            "XX": 10
+        },
+        "imageHash": "3cd609482235a88d95912cd9a3c00761db40216047d13427713a27f35e348f18"
+    },
+    {
+        "title": "Summer of Making Blue",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2adfa7f3dc23aaaf94b1cf48c3580abd0d38c7dd_verified.png",
+        "description": "verify yourself for that premium feel!\r\nAI assistant included.",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/105/buy",
+        "id": 105,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 40,
+            "EU": 40,
+            "IN": 40,
+            "CA": 40,
+            "AU": 40,
+            "XX": 40
+        },
+        "imageHash": "8fec8cc454d94ed32725758d6f70ff57887086298a1842b63b9cb5a50607514f"
+    },
+    {
+        "title": "Sunglasses",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/8394bf7af8552365dabb0e1e36c3c4d5dc6d2549_sunglasses.png",
+        "description": "protect yourself from custom profile CSS",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/109/buy",
+        "id": 109,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "9415a0069b062a9fb1aa56014ea36623d20159f6b8a5117d1bcbb9dfcdd3bba0"
+    },
+    {
+        "title": "Pocket Watcher",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c5cdfe8e530786f9db430d172983dab48cc097f8_pocket_watcher.png",
+        "description": "view other users' shell balances!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/113/buy",
+        "id": 113,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "2873b5654bc4a1e36364ca7d643a1833aaa19228d14c2bcb513403cd5955f735"
+    },
+    {
+        "title": "Offshore Bank Account",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/865f9686ab8219d752aee3e6097f313a352cac63_offshore_bank_account.png",
+        "description": "hide your shell balance from users with \"pocket watcher\"",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/115/buy",
+        "id": 115,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 150,
+            "EU": 150,
+            "IN": 150,
+            "CA": 150,
+            "AU": 150,
+            "XX": 150
+        },
+        "imageHash": "a4271bf1b14d3bc221d88ebfbb026988da68582c13ab3740257c0ba15275dcee"
+    },
+    {
+        "title": "Gold Verified",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b1f62de8f9ac37a7583c6a87018342df2ef8b7dc_2025_07_14_0xz_Kleki_1_.png",
+        "description": "Upgrade your verification status with this exclusive gold checkmark badge.",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/114/buy",
+        "id": 114,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 160,
+            "EU": 160,
+            "IN": 160,
+            "CA": 160,
+            "AU": 160,
+            "XX": 160
+        },
+        "imageHash": "7a0955bb596325e43ccc09911e7d4d4e227a3df795dff4c61c2d625922afcc74"
+    },
+    {
+        "title": "I am Rich",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/83212c75031448cb4633e7aaab07825fa3b76a74_i_am_rich.png",
+        "description": "just as useful as the iOS app!",
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/107/buy",
+        "id": 107,
+        "isBlackMarket": false,
+        "prices": {
+            "US": 1000,
+            "EU": 1000,
+            "IN": 1000,
+            "CA": 1000,
+            "AU": 1000,
+            "XX": 1000
+        },
+        "imageHash": "6592e401c1ee7295b795bc7d7a25fb055300236242420eccaf16463834e32e0d"
+    },
+    {
+        "title": "join a cooler, more secret channel",
+        "id": 222,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/222/buy",
+        "description": "!!!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f01d8aaf53042ef24e0dee2cb615b573e2faba5b_c2.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 2,
+            "EU": 2,
+            "IN": 2,
+            "CA": 2,
+            "AU": 2,
+            "XX": 2
+        },
+        "imageHash": "38f555968012579e3b0a03ee477ee26b0ba788cdda6cd1287181d464fc9e0eb2"
+    },
+    {
+        "title": "username flair",
+        "id": 106,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/106/buy",
+        "description": "pink & comic sans! a match made in heaven!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a945c76418aaefa315677c19e54303f7ba694e53_CleanShot_202025-07-08_20at_2013.46.32_2x.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 15,
+            "EU": 15,
+            "IN": 15,
+            "CA": 15,
+            "AU": 15,
+            "XX": 15
+        },
+        "imageHash": "7d0f8653cb212f1488c34ae9d35810f7719e97af842cb35a6a09364c34f38c35"
+    },
+    {
+        "title": "preferred customer",
+        "id": 111,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/111/buy",
+        "description": "skip that annoying fucking loading dialog",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/056608fd447fd496d252926b2f5989d568bea9e2_cool.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 20,
+            "EU": 20,
+            "IN": 20,
+            "CA": 20,
+            "AU": 20,
+            "XX": 20
+        },
+        "imageHash": "6cf4a91413cb9df0566f59b2480578b6db4e4d243847665d02585804f7e9d8a2"
+    },
+    {
+        "title": "Paper signed by Rowan",
+        "id": 176,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/176/buy",
+        "description": "colon three",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/651de67bc7f73638057c977ea6823be179594dc3_2025_08_11_0r6_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 25,
+            "EU": 25,
+            "IN": 25,
+            "CA": 25,
+            "AU": 25,
+            "XX": 25
+        },
+        "imageHash": "aed0803269b6398712067cbcc944f023e57963dfeb50efad98db68d81eb42793"
+    },
+    {
+        "title": "random piece of paper from HQ?",
+        "id": 104,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/104/buy",
+        "description": "might have secrets on it?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b2122ad5451db4de2e6bca1a227e9a96e46ec423_random-paper.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 27,
+            "EU": 27,
+            "IN": 27,
+            "CA": 27,
+            "AU": 27,
+            "XX": 27
+        },
+        "imageHash": "de27bf426091016513270b022a6cf71f08639b921cea6aa944521db92bed3db6"
+    },
+    {
+        "title": "20 shells",
+        "id": 209,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/209/buy",
+        "description": "this makes sense",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/93b3945eadb5d55b75d6e84c093cd8609fc6aa96_HUH-4x.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 30,
+            "EU": 30,
+            "IN": 30,
+            "CA": 30,
+            "AU": 30,
+            "XX": 30
+        },
+        "imageHash": "88e4eba585bc8c209d9cd6290ae82320b3355ae135c6e780c3938158b729f11a"
+    },
+    {
+        "title": "b o n g",
+        "id": 101,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/101/buy",
+        "description": "play the taco bell bong on everyone's browser!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/3e92872f28c2a5d1d0c85a183f35324eaf2b7600_2025_07_24_004_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 30,
+            "EU": 30,
+            "IN": 30,
+            "CA": 30,
+            "AU": 30,
+            "XX": 30
+        },
+        "imageHash": "5068d27a1790753d44551e2dff98987d2580c0288cfbb0a6fa9d818b936edc8b"
+    },
+    {
+        "title": "The Letter A in 250 Sizes",
+        "id": 175,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/175/buy",
+        "description": "The Letter A in 250 Sizes is a book that contains the letter \"A\" in 250 font sizes.",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/e4151f8b875b1df4f772b48422340952a9f0c078_2025_08_10_121_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 50,
+            "EU": 50,
+            "IN": 50,
+            "CA": 50,
+            "AU": 50,
+            "XX": 50
+        },
+        "imageHash": "a733f07662182c01e28e6dcb3a4189ebf512771e3a0c947934525b8628fc7144"
+    },
+    {
+        "title": "Thigh Highs (2 pack)",
+        "id": 156,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/156/buy",
+        "description": "Guys after studying comp sci:",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/551eaead78680632e6a45c3201d538d616e6166b_2025_08_05_10g_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 55,
+            "EU": 55,
+            "IN": 55,
+            "CA": 55,
+            "AU": 55
+        },
+        "imageHash": "6a8f397494f3fa7f3d23afaefb4cf7a87e0a7cfc61fc78d48d6c46dbc5878d56"
+    },
+    {
+        "title": "Catears (2 pack)",
+        "id": 155,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/155/buy",
+        "description": "Yes I use Arch Linux how did you know?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/5b5e4409090c49f0c7338b53d4376246918ba64c_image-removebg-preview_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 55,
+            "EU": 55,
+            "IN": 55,
+            "CA": 55,
+            "AU": 55
+        },
+        "imageHash": "eda8485f3845462904a746fd950f06c2d4cd35016098ac2796d5fb060c18b997"
+    },
+    {
+        "title": "Glowkeeper",
+        "id": 211,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/211/buy",
+        "description": "fun game made by a fellow hack clubber!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f7f0fdd7e50001be0d018369c568b264caf6ffc2_2025_08_30_00q_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 75,
+            "EU": 75,
+            "IN": 75,
+            "CA": 75,
+            "AU": 75,
+            "XX": 75
+        },
+        "imageHash": "aa640e5d3542bc8dcd56c2961847b1ff7c05d9112d57b6215157a85d63b1d604"
+    },
+    {
+        "title": "OneShot",
+        "id": 191,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/191/buy",
+        "description": "You one shot, one opportunity to seize everything you ever wanted, one moment",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/45270ee4c2556a0208aefba5b329144d77716508_hero_capsule.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 75,
+            "EU": 75,
+            "IN": 75,
+            "CA": 75,
+            "AU": 75,
+            "XX": 75
+        },
+        "imageHash": "ab80feaf38b368ce5b2d0312010af8eefd7a55436a944f05925a98e3c4d06a3f"
+    },
+    {
+        "title": "Celeste",
+        "id": 187,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/187/buy",
+        "description": "what a nice jumpy game i sure hope there is nothing woke in it",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/e2d12ea1a3f6fe6965497e01f2e9564050d0eca0_hero_capsule.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 90,
+            "EU": 90,
+            "IN": 90,
+            "CA": 90,
+            "AU": 90,
+            "XX": 90
+        },
+        "imageHash": "047a14ab48b6658df4e6069e3f8971c8c3b767ef4d2832fe1e277dbd66af8545"
+    },
+    {
+        "title": "Bloons TD 6 (Steam)",
+        "id": 136,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/136/buy",
+        "description": "monkey pop ballon game",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f3a9f35599e80b3e7f5cadf0b5124aa65fc7507c_2025_07_22_0zz_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 91,
+            "EU": 91,
+            "IN": 91,
+            "CA": 91,
+            "AU": 91,
+            "XX": 91
+        },
+        "imageHash": "3facf51d796790696a0988a2e29a577a8c156918b41954f1e3290443cedea6c4"
+    },
+    {
+        "title": "Balatro",
+        "id": 184,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/184/buy",
+        "description": "GAMBLING I LOVE GAMBLING RAHH",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/83022a8d9aa7fb4f935b1c924d0b73376dce7094_header.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 94,
+            "EU": 94,
+            "IN": 94,
+            "CA": 94,
+            "AU": 94,
+            "XX": 94
+        },
+        "imageHash": "231cfbbf4c97b31f0fdc012f5deee28ce430783012543ea66e85145f903d9a38"
+    },
+    {
+        "title": "Hydroneer",
+        "id": 134,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/134/buy",
+        "description": "Fun mining game!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/322ff34403d605fa6622946025bc4edd70f1dc0f_hero_capsule_1_.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 98,
+            "EU": 98,
+            "IN": 98,
+            "CA": 98,
+            "AU": 98,
+            "XX": 98
+        },
+        "imageHash": "a210c60f6dd91968e1a9115692a2da37cc49e11fcc5b036fc5a31f5c32fd014d"
+    },
+    {
+        "title": "cwalker toe pic card (signed)",
+        "id": 146,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/146/buy",
+        "description": "3-track magstripe for all your swiping-related needs",
+        "stockRemaining": 4,
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/74405b06cbf1dd8f18e8bc6e5d807e25f580dfd6_IMG_5800.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "1db29ea7149c60fb6f1c75e52f02876893ae787f0e3978ae7344b871b95bd3fa"
+    },
+    {
+        "title": "SIGNALIS",
+        "id": 210,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/210/buy",
+        "description": "one of the coolest survival horror games, recommended by kip!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2cd827a000501490ecf646fa12940b63643efe15_2025_08_30_00n_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "3013abe108f3646dd3148cccc35cd145aeb9af1dd342345e7a751bbf24f06b70"
+    },
+    {
+        "title": "PEAK",
+        "id": 188,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/188/buy",
+        "description": "Actually peak?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/3c02ee2853f5bf0aaab62385a2ba8239b92ba850_hero_capsule.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "48f621414bd0b18d4039dc4a4615ad0239ed262d38baec039190bfdc6a8a246f"
+    },
+    {
+        "title": "Stardew Valley",
+        "id": 189,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/189/buy",
+        "description": "The end goal of every programmer, to retire and take up farming",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b1df0409c2935c1b22f76dd2854bb357798ba674_hero_capsule.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "eeae63a3cfeaabfa282384e6e5dac42639f40edf0952ebb62fd048f7731b57e4"
+    },
+    {
+        "title": "Totally Accurate Battle Simulator",
+        "id": 185,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/185/buy",
+        "description": "totally accurate",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f08de04c245810c70f49b09e0c2828af48a9c214_hero_capsule.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 100,
+            "EU": 100,
+            "IN": 100,
+            "CA": 100,
+            "AU": 100,
+            "XX": 100
+        },
+        "imageHash": "26c9b23d26fed6afb9692ce1b967435caa89194ec4fcb716dc753eb1207db1c8"
+    },
+    {
+        "title": "CPU Fidget Spinner",
+        "id": 195,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/195/buy",
+        "description": "it spins!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/06291a205a9985b3a4350ed092bbece46ca30d22_2025_08_20_0sd_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 115,
+            "EU": 115,
+            "IN": 115,
+            "CA": 115,
+            "AU": 115,
+            "XX": 115
+        },
+        "imageHash": "aaddd099167042c568c7622af478f49957415a1c3f709d3bb4cb37b6affea6a9"
+    },
+    {
+        "title": "Hollow Knight: Silksong",
+        "id": 220,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/220/buy",
+        "description": "who would win? the biggest video game distributor servers or funny bug game?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b1f57fb81d6fdf3838ad8b2fd0bba2cce2e13ca3_2025_09_08_0fd_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 120,
+            "EU": 120,
+            "IN": 120,
+            "CA": 120,
+            "AU": 120,
+            "XX": 120
+        },
+        "imageHash": "0ccbb050c6e15ac0700bc663889b082f813bfeff19868f97eadbbe6b4b12dac2"
+    },
+    {
+        "title": "Lock picking set!",
+        "id": 196,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/196/buy",
+        "description": "With great power comes great responsibility...",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/20c14d57c2e5c79938d2b644a2258ae1e01a7e8c_2025_08_20_0sg_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 125,
+            "EU": 125,
+            "IN": 125,
+            "CA": 125,
+            "AU": 125,
+            "XX": 125
+        },
+        "imageHash": "65ae48b5555711fe34658e1f695fb562ca962cfc744338e4135e34eb0032cd3e"
+    },
+    {
+        "title": "Celsius",
+        "id": 168,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/168/buy",
+        "description": "Please enjoy responsibly, each drink contains up to 200mg of caffeine.",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9874966420f246a7b9004c45988ea91b9cf8291b_2025_08_09_0nt_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 149,
+            "EU": 149,
+            "IN": 149,
+            "CA": 149,
+            "AU": 149,
+            "XX": 149
+        },
+        "imageHash": "255526ae1225b87aee693f2a35aaeb7ceb8d7ebd2bb024532acf8bbd7c36b814"
+    },
+    {
+        "title": "a physical copy of why's (poignant) guide to ruby",
+        "id": 102,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/102/buy",
+        "description": "nora thinks you should read this book",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a8ea4fae6a8d93aafbf37941a373952fb0e7fe43_32141827928.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 150,
+            "EU": 200,
+            "IN": 200,
+            "CA": 200,
+            "AU": 200,
+            "XX": 225
+        },
+        "imageHash": "68ede6a3d805df36d395e10fe33370f3e7541d455833476ff720438f3bb7d272"
+    },
+    {
+        "title": "ULTRAKILL",
+        "id": 152,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/152/buy",
+        "description": "MANKIND IS DEAD. BLOOD IS FUEL. HELL IS FULL.",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/13ed1200a1375e1835ab5f95a7a73a809548b4e8_header_1_.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 150,
+            "EU": 150,
+            "IN": 150,
+            "CA": 150,
+            "AU": 150,
+            "XX": 150
+        },
+        "imageHash": "a7d0b5bdc04fac1bd74c5960aecfbaa3c782b68b06cd42e64f47adfd63c35a3b"
+    },
+    {
+        "title": "Deltarune",
+        "id": 186,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/186/buy",
+        "description": "she delta on my rune",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b91040ae4f273e2115393a24fe20a2b5ad63a806_2025_08_18_0jd_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 150,
+            "EU": 150,
+            "IN": 150,
+            "CA": 150,
+            "AU": 150,
+            "XX": 150
+        },
+        "imageHash": "23174511b55dfa6d09b43f08a9701cffca89ebf483c340f0a34f02cadfa9215d"
+    },
+    {
+        "title": "Stray",
+        "id": 192,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/192/buy",
+        "description": "meow? is this thing on?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/9274712819760bac3b672155583f6968b80143db_hero_capsule.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 150,
+            "EU": 150,
+            "IN": 150,
+            "CA": 150,
+            "AU": 150,
+            "XX": 150
+        },
+        "imageHash": "f6d900a9ca2f96abe3c9e62b8ace79faeab01fcb6b146cce43bd254857cc0de4"
+    },
+    {
+        "title": "Scribedriver Mechanical Pencil",
+        "id": 194,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/194/buy",
+        "description": "it writes!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a0f7df11f055926b1fb10a89a732487ad0fb9168_2025_08_20_0s7_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 165,
+            "EU": 165,
+            "IN": 165,
+            "CA": 165,
+            "AU": 165,
+            "XX": 165
+        },
+        "imageHash": "89082590fb6d7afa0b7157db16fa9b4000f53e8802506ab1afc3bfa9ee27365f"
+    },
+    {
+        "title": "ULTRAKILL *ULTRA LED* Key Chain",
+        "id": 212,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/212/buy",
+        "description": "TOO BRUTAL FOR POCKETS. TIME TO MAKE YOUR HOUSE KEYS HIGH CALIBER.",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/e15eecabc108fa01d31db248abbba65844f9ec78_2025_09_01_0j8_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 175,
+            "EU": 175,
+            "IN": 175,
+            "CA": 175,
+            "AU": 175,
+            "XX": 225
+        },
+        "imageHash": "b196a89330e1db2b54dafe6915ca2bc97f28629238ec6390b059b83208fbc856"
+    },
+    {
+        "title": "Factorio Space Age",
+        "id": 207,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/207/buy",
+        "description": "we are go for launch!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/070cf9733efe4311ad64695d5768c63db2518113_2025_08_27_0m7_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 190,
+            "EU": 190,
+            "IN": 190,
+            "CA": 190,
+            "AU": 190,
+            "XX": 190
+        },
+        "imageHash": "e73f0b22e5dcd9b12eea92996d52ec1e2cf350c741d4106e893f2fdf579ef966"
+    },
+    {
+        "title": "1cm Tungsten Cube",
+        "id": 160,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/160/buy",
+        "description": "cube friend :D",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f9afe98638028cc037c42bc2c36773709f8fdd35_2025_08_05_11u_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 200,
+            "EU": 200,
+            "CA": 200,
+            "AU": 200
+        },
+        "imageHash": "e9963c766e955e7049199a37709a347a6020ca542b69f682a76048879d7bd766"
+    },
+    {
+        "title": "1 Month of Discord Nitro",
+        "id": 201,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/201/buy",
+        "description": "you suck, you are a terrible human and i hate you",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/b616fec29476606b2c596ceb42afc4c93747255f_2025_08_20_0td_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 200,
+            "EU": 200,
+            "IN": 200,
+            "CA": 200,
+            "AU": 200,
+            "XX": 200
+        },
+        "imageHash": "1598a1799e11e6178324c882400d09a568d21e74bde1241ca7be0a325fa913c6"
+    },
+    {
+        "title": "full-size blahaj.",
+        "id": 100,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/100/buy",
+        "description": "even more shark to hug!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/8b0e146afa1fb00a1aa26c9a0fc4a18fe8e4fbb7_2025_06_30_0zf_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 247,
+            "EU": 322,
+            "IN": 222,
+            "CA": 322,
+            "AU": 322,
+            "XX": 322
+        },
+        "imageHash": "e1048c2fc54bf2313dc2e516e73374e24a4247a2c82577dc9a7e8357c4c5b180"
+    },
+    {
+        "title": "Satisfactory",
+        "id": 135,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/135/buy",
+        "description": "best factory game with belts, pipes, trains, and belts, and more belts... most addictive yet!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/caa120bd34ab76feccacf7b83d1ee39f714c44bd_library_header_2x.jpg",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 260,
+            "EU": 260,
+            "IN": 260,
+            "CA": 260,
+            "AU": 260,
+            "XX": 260
+        },
+        "imageHash": "f99c2a1fa2a6da326caa8660a1d996dd013fcbdc1b0f2be3374448db0a87a05c"
+    },
+    {
+        "title": "Tetr.io Supporter (12 months)",
+        "id": 199,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/199/buy",
+        "description": "tetris baby!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c758f5249b1b5b0e1c073f09ac46a696e9a7ebb3_2025_08_20_0t2_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 300,
+            "EU": 300,
+            "IN": 300,
+            "CA": 300,
+            "AU": 300,
+            "XX": 300
+        },
+        "imageHash": "867a180835be0ca870a1959003a14b5c9085504fb42b40475d39e4f1f0513984"
+    },
+    {
+        "title": "Maid dress",
+        "id": 215,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/215/buy",
+        "description": "when programming becomes too hard and you just gotta clean up the house",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/bbd5e6db1479ea774ab436c4151e2e49635f90e6_cute-4x.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 350,
+            "EU": 350,
+            "IN": 350,
+            "CA": 350,
+            "AU": 350,
+            "XX": 350
+        },
+        "imageHash": "cf326633a1364dd8c2f5962093f1a0905b5a7180c40d29f4f57e0be58b282853"
+    },
+    {
+        "title": "Okay, $19 Fortnite card",
+        "id": 208,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/208/buy",
+        "description": "who wants it? And yes, I'm giving it away. Remember; share, share share. And trolls, don't get blocked!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f81494a0beb492c8ec70072946c6719a823a9b7b_2025_08_29_0nl_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 420,
+            "EU": 420,
+            "IN": 420,
+            "CA": 420,
+            "AU": 420,
+            "XX": 420
+        },
+        "imageHash": "950272e2706f2893f4ea4a69e17cd3cf109929db836c6427f0c50631a873ff2c"
+    },
+    {
+        "title": "RAM Grant",
+        "id": 157,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/157/buy",
+        "description": "i rember!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/6623f7632000f8835efaedb1acbc5f52a2117b4d_2025_08_20_0tn_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 440,
+            "EU": 440,
+            "IN": 440,
+            "CA": 440,
+            "AU": 440,
+            "XX": 440
+        },
+        "imageHash": "f38ea7f577b146ec78d58c0010658e9a375bad0d8341d8c15f759afdf214055c"
+    },
+    {
+        "title": "Internal SSD grant",
+        "id": 161,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/161/buy",
+        "description": "*slaps hood* this thing can fit so many cat pics",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a2fab6930aa52d4e20cfadd8ea8922b671bcac7d_2025_08_20_0th_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 440,
+            "EU": 440,
+            "IN": 440,
+            "CA": 440,
+            "AU": 440,
+            "XX": 440
+        },
+        "imageHash": "a1499622527743dab8007b81a03e09f86c0347ed3bb225f6158db1fb7380a593"
+    },
+    {
+        "title": "Monitor grant",
+        "id": 198,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/198/buy",
+        "description": "what is on the funny picture box today?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/bfe9ab7632ced5a2927fe9a69eae50effda16dcd_2025_08_20_0sp_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 500,
+            "EU": 500,
+            "IN": 500,
+            "CA": 500,
+            "AU": 500,
+            "XX": 500
+        },
+        "imageHash": "8da6e1b4270c7971685b24d3ed4a54e95c8c2748e8576a96f21151011392af4e"
+    },
+    {
+        "title": "Keyboard grant",
+        "id": 197,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/197/buy",
+        "description": "click clack click clack",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/e13044f62c9824a6912b3dec76ad01b226af99f9_2025_08_20_0sk_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 500,
+            "EU": 500,
+            "IN": 500,
+            "CA": 500,
+            "AU": 500,
+            "XX": 500
+        },
+        "imageHash": "0849f375381dada21678390a97fa75a24509f8aacf9050f28168fa7fbc704f21"
+    },
+    {
+        "title": "AMD Ryzen 7 7700X 8C 16T",
+        "id": 158,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/158/buy",
+        "description": "this chip does not go with the salsa!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/abba0c8b4fa96d482a8daac2f6e7cd568b226f5c_2025_08_05_112_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1225,
+            "EU": 1225,
+            "CA": 1225,
+            "AU": 1225
+        },
+        "imageHash": "a9c62d8721a93d9da8bdd1356a5a44072f7c6e14b7f8e1bfe5817a386e9297d4"
+    },
+    {
+        "title": "NVIDIA GTX 1080 Ti - FE Founders (Renewed)",
+        "id": 162,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/162/buy",
+        "description": "I bought this GPU, to render even more crabs!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/00d82f642b7d8bd29f8af61c64bf99333cd9c19a_2025_08_07_0wb_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1250,
+            "EU": 1250,
+            "CA": 1250,
+            "AU": 1250
+        },
+        "imageHash": "bb8108c1f5f0ba4ab4d67c147a813e7dc08366232226109a3260d012b51e3b43"
+    },
+    {
+        "title": "Google Pixel 7 128GB Lemongrass (Renewed)",
+        "id": 165,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/165/buy",
+        "description": "aka the sarah phone™",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/55d4c134cb29361140e8fc6748be259b3c993842_2025_08_07_0z0_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1290,
+            "EU": 1290,
+            "CA": 1290,
+            "AU": 1290
+        },
+        "imageHash": "018388ee582c81dbcbaf7256778a3ebe3f93847e3d9a7dd8f558d9ce280e9ed1"
+    },
+    {
+        "title": "AirPods Pro 2",
+        "id": 124,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/124/buy",
+        "description": "tic tacs but for your ears!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/77749b48ec24516f9ff39e62031e7435c4c86810_2025_07_22_0nd_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1500,
+            "EU": 1500,
+            "CA": 1500,
+            "AU": 1500
+        },
+        "imageHash": "1f2035b2ff20215e8f7bf0dc392006fcd81b9012918732acd861f80f1bcddf6c"
+    },
+    {
+        "title": "CMF Phone 2 Pro (Black)",
+        "id": 126,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/126/buy",
+        "description": "semi repairable phone in this economy?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/296eb60ca86e3091ee2afb18417e1471bfb1cf01_2025_07_22_0o4_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1540,
+            "EU": 1790,
+            "IN": 1540,
+            "CA": 1915,
+            "AU": 1640,
+            "XX": 1915
+        },
+        "imageHash": "e15848e0ade5e988368e77c78cb3de5e8f0d4e72c6bd1da58bd2bfb8880413a1"
+    },
+    {
+        "title": "CMF Phone 2 Pro (White)",
+        "id": 127,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/127/buy",
+        "description": "semi repairable phone in this economy?",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/744e56f0bb6c614cd01779ca6eb2e67da75cd99c_2025_07_22_0o4_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1540,
+            "EU": 1790,
+            "IN": 1540,
+            "CA": 1915,
+            "AU": 1640,
+            "XX": 1915
+        },
+        "imageHash": "bff92777306bd7adc102897d9ca58f4599a925b7ec17df142edba01ba16959da"
+    },
+    {
+        "title": "Dell Latitude 14\" Laptop Core i5 4.2GHz 16GB RAM 512GB SSD",
+        "id": 151,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/151/buy",
+        "description": "eBay Refurbished certified, like new, backed by a one year warranty",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/0e5b8fcc54dc50b5040230c51ff47b9c9cc44320_2025_08_03_0tb_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1595
+        },
+        "imageHash": "b931a7d87219d9a988062745cb879dec736c0cc28e6107a2cb6699c2b141c469"
+    },
+    {
+        "title": "iPhone 12 Mini Black 256GB (Renewed)",
+        "id": 164,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/164/buy",
+        "description": "Used, wear and tear will show, but fully functional",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/4cc1d2605c2997a3ea4f10967c7461e67345ecef_2025_08_07_0yo_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1610,
+            "EU": 1610,
+            "CA": 1610,
+            "AU": 1610
+        },
+        "imageHash": "9709ad7d3f5ccd3d425eea9ae43df6e1165a733314396b386413b45e8593230e"
+    },
+    {
+        "title": "Lenovo Thinkpad X1 Carbon Gen 8 (Refurbished)",
+        "id": 140,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/140/buy",
+        "description": "14\" FHD, Intel Core i7-10610, 16GB DDR4 RAM, 512GB SSD",
+        "stockRemaining": 6,
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/5b5942b4b016ce14e5b658e0cae73795d14e91f1_image-removebg-preview_7_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1800
+        },
+        "imageHash": "52e3dbce93330c76f612a4305c2f735dc65a2db57633a90bc4cc0afe85de8a34"
+    },
+    {
+        "title": "Steam Deck 256GB LCD",
+        "id": 167,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/167/buy",
+        "description": "great for opening cases on the go!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/911e7aa03515573732e8023fe863bfa02c7a1d1d_2025_08_08_0s6_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 1999,
+            "EU": 1999,
+            "CA": 1999,
+            "AU": 1999
+        },
+        "imageHash": "44ced196c618de3afe90d77aa68edf8d9dc22f4cffecafe873f9eacd00c89915"
+    },
+    {
+        "title": "M4 Mac Mini (sale)",
+        "id": 214,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/214/buy",
+        "description": "Booth got this one extra cheap somehow",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/ac2db54e892ce4cf597efdfdf8447a4d2a020b81_2025_06_16_0qf_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 2750,
+            "EU": 3500,
+            "CA": 2850,
+            "AU": 3000
+        },
+        "imageHash": "c817462687824d84ff5094cd088f8478d9565296076d91202a389ef2586a8488"
+    },
+    {
+        "title": "Steam Deck 512GB OLED",
+        "id": 133,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/133/buy",
+        "description": "the cooler switch 2",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/c13a720b40b8ab1f669d30910c994948ecd22537_2025_07_22_0xt_Kleki_1_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 2950,
+            "EU": 2950,
+            "CA": 2950,
+            "AU": 2950
+        },
+        "imageHash": "cb87baf07a8acd04c2236eed97dcfb29c29c43a6befa9a4d0326ac4fa3179618"
+    },
+    {
+        "title": "NVIDIA H100 Tensor Core GPU",
+        "id": 159,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/159/buy",
+        "description": "How the fuck would you even get this",
+        "stockRemaining": 1,
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/ead3853aa95463ca1f7a73c9ea13972380679093_2025_08_05_11b_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "US": 9999,
+            "EU": 9999,
+            "IN": 9999,
+            "CA": 9999,
+            "AU": 9999,
+            "XX": 9999
+        },
+        "imageHash": "01c0045b206fc01591a33990ba4d2b06208a965b54f137d0854d18e47fbff6f8"
+    },
+    {
+        "title": "Lenovo V15 AMD Ryzen 7 7730U 15.6\"",
+        "id": 138,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/138/buy",
+        "description": "economy laptop for india!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/2017a192577ddd7d42ede8cb63e840373008ae62_image-removebg-preview_6_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "IN": 2550
+        },
+        "imageHash": "761cdc55e97e762959ebb862777a02dce6d83216fe2cc02de86c65450ea68f9f"
+    },
+    {
+        "title": "HP Victus, AMD Ryzen 5 5600H, NVIDIA RTX 3050",
+        "id": 139,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/139/buy",
+        "description": "midrange laptop for my friends in india!",
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/5cbfa62fda1c77cac18e3bc0d687ae64849f7a33_image-removebg-preview_5_.png",
+        "isBlackMarket": true,
+        "prices": {
+            "IN": 3600
+        },
+        "imageHash": "0306428f29f658a5725bedc300f08f354072034ad202091ef09e6416ce8e743f"
+    },
+    {
+        "title": "Lenovo ThinkPad T14 14\" Laptop",
+        "id": 141,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/141/buy",
+        "description": "i5, 16GB RAM, 512GB SSD, Win11 Pro (Renewed)",
+        "stockRemaining": 5,
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a8248fd3f6dfd802396a6baeab2cd1cecd6b7455_2025_07_23_023_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "CA": 1740
+        },
+        "imageHash": "7969aebdbff3a0ad8c3b78b708ddaf76dff4c6531c71d9af68f0be01952fdd45"
+    },
+    {
+        "title": "ThinkPad X1 Carbon 6th Gen (Renewed)",
+        "id": 142,
+        "purchaseUrl": "https://summer.hackclub.com/shop/items/142/buy",
+        "description": "i5 8350U 1.70GHz 8GB RAM 256GB SSD 14\" FHD Win 11",
+        "stockRemaining": 2,
+        "imageUrl": "https://hc-cdn.hel1.your-objectstorage.com/s/v3/a1e56382b33658ed3e75f35d075c7aad29e24191_2025_07_23_02k_Kleki.png",
+        "isBlackMarket": true,
+        "prices": {
+            "AU": 1540
+        },
+        "imageHash": "8f1ffad1cdaf01833bb083b659f7f1e948050c82dc3d3f9482f3bba35e781b00"
+    }
+]
