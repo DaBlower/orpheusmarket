@@ -20,8 +20,11 @@ def get_data():
 
     if response_og.status_code == 503:
          with open("backup.json", 'r') as backup:
-            BM_ITEMS = json.load(backup)
+            all = json.load(backup)
             backup_warning = True
+            for item in all:
+                if item["isBlackMarket"] == True:
+                    BM_ITEMS.append(item)
 
     else:
         for item in response:
