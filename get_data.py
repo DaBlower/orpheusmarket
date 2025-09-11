@@ -8,9 +8,10 @@ def get_data():
         response = requests.get(url=url).json()
     except requests.exceptions.JSONDecodeError:
         print(f"JSON decode error!")
-        exit()
+        return 5
     except Exception as e:
         print(f"Failed to contact api: {e}")
+        return 6
 
     BM_ITEMS = []
 

@@ -24,6 +24,10 @@ def fu():
 
 @app.route("/")
 def home():
+    if BM_ITEMS == 5:
+        return "JSON Decode Error! Please contact obob@duck.com!"
+    elif BM_ITEMS == 6:
+        return "Failed to contact API! Please contact obob@duck.com!"
     session.permanent = True
     card_html = ""
     region = request.args.get('region', session.get("region", "XX")).upper()
