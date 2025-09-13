@@ -19,7 +19,7 @@ def get_data():
     
     backup_warning = False
 
-    if response_og.status_code != 500:
+    if response_og.status_code != 200:
         backup = latest_backup.get_latest_backup()
         if backup:
             with open(backup, 'r') as backup:
