@@ -22,7 +22,7 @@ allowed_regions = {"US", "EU", "IN", "CA", "AU", "XX"}
 @app.route("/.ssh/id_ed25519")
 @app.route("/database.sql")
 def fu():
-    return "fuck you bot :D"
+    return "flip you bot :D"
 
 
 @app.route("/")
