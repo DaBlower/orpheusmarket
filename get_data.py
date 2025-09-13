@@ -18,7 +18,7 @@ def get_data():
     
     backup_warning = False
 
-    if response_og.status_code == 503:
+    if response_og.status_code != 200:
          with open("backup.json", 'r') as backup:
             BM_ITEMS = json.load(backup)
             backup_warning = True
