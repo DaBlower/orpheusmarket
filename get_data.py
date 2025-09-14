@@ -15,7 +15,7 @@ def get_data(regular):
     except requests.exceptions.JSONDecodeError:
         print(f"JSON decode error!")
 
-    BM_ITEMS = []
+    items = []
     
     backup_warning = False
 
@@ -31,12 +31,12 @@ def get_data(regular):
                 all = json.load(backup)
                 backup_warning = True
                 for item in all:
-                    if item["shopType"] == regular:
-                        BM_ITEMS.append(item)
+                    if item["shopType"] == shopType:
+                        items.append(item)
 
     else:
         for item in response:
-            if item["isBlackMarket"] == True:
-                    BM_ITEMS.append(item)
+            if item["shopType"] == shopType:
+                    items.append(item)
 
-    return BM_ITEMS, backup_warning
+    return items, backup_warning

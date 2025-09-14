@@ -7,12 +7,15 @@ load_dotenv() # load env
 
 app = Flask(__name__)
 app.secret_key = os.getenv("FLASK_SECRET_KEY")
-BM_ITEMS = get_data()
+BM_ITEMS = get_data(regular=False)
+RG_ITEMS = get_data(regular=True) # regular shop
 
 warn = BM_ITEMS[1]
 BM_ITEMS = BM_ITEMS[0]
+RG_ITEMS = RG_ITEMS[0]
 
 allowed_regions = {"US", "EU", "IN", "CA", "AU", "XX"}
+allowed_shops = {"regular", "blackMarket"}
 
 @app.route("/.env")
 @app.route("/.git/config")
@@ -27,16 +30,22 @@ def fu():
 
 @app.route("/")
 def home():
+    # session stuff
     session.permanent = True
     card_html = ""
     region = request.args.get('region', session.get("region", "XX")).upper()
+    shop = request.args.get('shop', session.get("shop", "blackMarket")).lower()
 
     school = request.args.get('school', type=bool, default=False)
 
     if region not in allowed_regions:
         region = "XX"
 
+    if shop not in allowed_shops:
+        shop = "blackMarket"
+
     session["region"] = region
+    session["shop"] = shop
 
     warning_html = ""
     if warn == True:
@@ -50,7 +59,14 @@ def home():
         </div>
         """
 
-    for item in BM_ITEMS:
+    shop_list = [] # used to carry either bm or rg shop items
+
+    if shop == "blackMarket":
+        shop_list = BM_ITEMS
+    else:
+        shop_list = RG_ITEMS
+
+    for item in shop_list:
         region_in_store = False
         if region in item["prices"]:
             price = item["prices"].get(region)
@@ -92,7 +108,6 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {{css|safe}}
         <link rel="stylesheet" href="static/style.css">
         <title>orpheus market</title>
     </head>
@@ -101,19 +116,33 @@ def home():
             <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1><img src="/static/orpheus.png" class="dino"/></a>
         </div>
         <div class="region">
-            <h3>Choose your region</h3>
-            <p>Prices and availability vary by region</p>
-            <div class="region-container">
-                <form method="get" action="/">
-                    <select id="region-selector" class="region-selector" name="region" onchange="this.form.submit()">
-                        <option value="US" {% if region == 'US' %}selected{% endif %}> United States </option>
-                        <option value="EU" {% if region == 'EU' %}selected{% endif %}> EU + UK </option>
-                        <option value="IN" {% if region == 'IN' %}selected{% endif %}> India </option>
-                        <option value="CA" {% if region == 'CA' %}selected{% endif %}> Canada </option>
-                        <option value="AU" {% if region == 'AU' %}selected{% endif %}> Australia </option>
-                        <option value="XX" {% if region == 'XX' %}selected{% endif %}> Rest of World </option>
-                    </select>
-                </form>
+            <div>
+                <h3>Choose your region</h3>
+                <p>Prices and availability vary by region</p>
+                <div class="region-container">
+                    <form method="get" action="/">
+                        <select id="region-selector" class="region-selector" name="region" onchange="this.form.submit()">
+                            <option value="US" {% if region == 'US' %}selected{% endif %}> United States </option>
+                            <option value="EU" {% if region == 'EU' %}selected{% endif %}> EU + UK </option>
+                            <option value="IN" {% if region == 'IN' %}selected{% endif %}> India </option>
+                            <option value="CA" {% if region == 'CA' %}selected{% endif %}> Canada </option>
+                            <option value="AU" {% if region == 'AU' %}selected{% endif %}> Australia </option>
+                            <option value="XX" {% if region == 'XX' %}selected{% endif %}> Rest of World </option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <h3>Choose your shop</h3>
+                <p>You can view items for both the regular shop and orpheusmarket!</p>
+                <div class="region-container">
+                    <form method="get" action="/">
+                        <select id="shop-selector" class="region-selector" name="shop" onchange="this.form.submit()">
+                            <option value="regular" {% if shop == 'regular' %}selected{% endif %}> Regular shop </option>
+                            <option value="blackMarket" {% if shop == 'blackMarket' %}selected{% endif %}> orpheusmarket </option>
+                        </select>
+                    </form>
+                </div>
             </div>
         </div>
         {{warning_html|safe}}
@@ -135,7 +164,7 @@ def home():
     </html>
     """
 
-    return render_template_string(html, card_html=card_html, region=region, warning_html=warning_html)
+    return render_template_string(html, card_html=card_html, region=region, shop=shop, warning_html=warning_html)
 
 
 
