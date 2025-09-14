@@ -13,7 +13,7 @@ I used [`@mahad`](https://hackclub.slack.com/team/U059VC0UDEU)'s [api](https://s
 
 
 ## Test it out!
-You can test it out at [orpheusmarket.vercel.app](https://orpheusmarket.vercel.app)
+You can test it out at [orpheus.olive.hackclub.app](https://orpheus.olive.hackclub.app)
 
 *OR*
 
