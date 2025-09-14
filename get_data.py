@@ -5,7 +5,7 @@ import latest_backup
 url = "https://summer.skyfall.dev/api/shop" # this is @mahad's api - if it breaks, i might make my own
 
 
-def get_data():
+def get_data(regular):
     try:
         response_og = requests.get(url=url)
     except Exception as e:
@@ -19,6 +19,11 @@ def get_data():
     
     backup_warning = False
 
+    if regular:
+        shopType = "regular"
+    else:
+        shopType = "blackMarket"
+
     if response_og.status_code != 200:
         backup = latest_backup.get_latest_backup()
         if backup:
@@ -26,7 +31,7 @@ def get_data():
                 all = json.load(backup)
                 backup_warning = True
                 for item in all:
-                    if item["isBlackMarket"] == True:
+                    if item["shopType"] == regular:
                         BM_ITEMS.append(item)
 
     else:
