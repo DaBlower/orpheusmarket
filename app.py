@@ -150,7 +150,7 @@ def home():
                 <div class="region-container">
                     <form method="get" action="/">
                         <select id="shop-selector" class="region-selector" name="shop" onchange="this.form.submit()">
-                            <option value="regular" {% if shop == 'regular' %}selected{% endif %}> Regular shop </option>
+                            <option value="regular" {% if shop == 'regular' %}selected{% endif %}> regular shop </option>
                             <option value="blackMarket" {% if shop == 'blackMarket' %}selected{% endif %}> orpheusmarket </option>
                         </select>
                     </form>
