@@ -7,7 +7,9 @@ I used [`@mahad`](https://hackclub.slack.com/team/U059VC0UDEU)'s [api](https://s
 ## Features
 - Up-to-date items
 - Real images
+- A UI that is actually responsive!!! (heidimarket is not D:)
 - Region selector with prices accurate to your region
+- A shop selector that allows you to see the regular SOM shop without leaving orpheusmarket
 - A buy link that's functional *if* you already have heidmarket acess
 - A cool UI with no horizontal scrolling for you mobile users! 
 
