@@ -188,3 +188,4 @@ cython_debug/
 /backups/old
 /backups/logs
 /backups/venv
+/static/backups
