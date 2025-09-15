@@ -9,11 +9,9 @@ url = "https://summer.skyfall.dev/api/shop"
 response = requests.get(url=url).json()
 date = datetime.today().strftime('%Y-%m-%d_%H-%M-%S')
 
-os.makedirs(f"/home/olive/backup-bm-api/backups/{date}/images", exist_ok=True)
-	
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
-with open(f"/home/olive/backup-bm-api/backups/{date}/api.json", "w", encoding="utf-8") as f:
-    json.dump(response, f, ensure_ascii=False, indent=4)
+os.makedirs(os.path.join(project_root, "backups", date, "images"), exist_ok=True)
 
 items = len(response)
 
@@ -25,7 +23,8 @@ for item in response:
 	id = item["id"]
 	if response.status_code == 200:
 		blocks = 0
-		with open(f"/home/olive/backup-bm-api/backups/{date}/images/{id}{ext}", "wb") as img:
+		image_path = os.path.join(project_root, "backups", date, "images")
+		with open(os.path.join(image_path, id+ext), "wb") as img:
 			for block in response.iter_content(chunk_size=8192):
 				img.write(block)
 				print("Wrote Block")
@@ -35,7 +34,10 @@ for item in response:
 		print(f"{items} images left!")
 	else:
 		print(f"Failed to retrieve {id}, error code is {response.status_code}")
-print(f"Wrote API to /home/olive/backup-bm-api/backups/{date}/api.json")
-print(f"Wrote images to /home/olive/backup-bm-api/backups/{date}/images")
+	item["localUrl"] = id
+print(f"Wrote API to {os.path.join(project_root, "api.json")}")
+print(f"Wrote images to {image_path}")
 
 
+with open(os.path.join(project_root, "api.json"), "w", encoding="utf-8") as f:
+    json.dump(response, f, ensure_ascii=False, indent=4)
