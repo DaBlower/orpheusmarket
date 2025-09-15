@@ -39,4 +39,10 @@ def get_data(regular):
             if item["shopType"] == shopType:
                     items.append(item)
 
-    return items, backup_warning
+    images = {}
+    images_d = latest_backup.get_latest_images()
+    if images_d:
+        with open(images_d, "r") as image_dict:
+            images = json.load(image_dict)
+            
+    return items, backup_warning, images

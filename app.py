@@ -10,12 +10,15 @@ app.secret_key = os.getenv("FLASK_SECRET_KEY")
 BM_ITEMS = get_data(regular=False)
 RG_ITEMS = get_data(regular=True) # regular shop
 
+images = BM_ITEMS[2] # dict of images
 warn = BM_ITEMS[1]
 BM_ITEMS = BM_ITEMS[0]
 RG_ITEMS = RG_ITEMS[0]
 
 allowed_regions = {"US", "EU", "IN", "CA", "AU", "XX"}
 allowed_shops = {"regular", "blackMarket"}
+
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__))) # for file operations (i.e. images)
 
 @app.route("/.env")
 @app.route("/.git/config")
@@ -59,7 +62,7 @@ def home():
         </div>
         """
 
-    shop_list = [] # used to carry either bm or rg shop items
+    shop_list = [] # used to carry either black market or regular shop items
 
     if shop == "blackMarket":
         shop_list = BM_ITEMS
@@ -77,14 +80,29 @@ def home():
         else:
             region_in_store = False
         if region_in_store == True:
+            item_id = item.get("id")
             title = item.get("title")
             description = item.get("description")
             # temporary for school lol
             if school:
                 description = description.replace("fuc", "duc")
-            image = item.get("imageUrl")
+
+            item_images = images.get(str(item_id), {})
+            backup_date = item_images.get("date", "")
+            image_filename = item_images.get("localImage", "")
+            image = os.path.join("static", "backups", backup_date, image_filename) if image_filename else item.get("imageUrl")
+            
+            full_image_path = os.path.join(project_root, image)
+            if not os.path.isfile(full_image_path):
+                image = item.get("imageUrl")
+
+            print(item_images)
+            print(backup_date)
+            print(image_filename)
+            print(image)
+            print(full_image_path)
+
             buy_url = item.get("purchaseUrl")
-            item_id = item.get("id")
 
             card_html += f"""
             <div class="card" id="card_{item_id}">
