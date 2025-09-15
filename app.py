@@ -158,7 +158,9 @@ def home():
                 </a>
             </div>
         </div>
-        {{card_html|safe}}
+        <div class="card_container">
+            {{card_html|safe}}
+        </div>
         <div class="footer"><a href="https://github.com/DaBlower">Made with ❤️ by obob!</a></div>
     </body>
     </html>
