@@ -96,12 +96,6 @@ def home():
             if not os.path.isfile(full_image_path):
                 image = item.get("imageUrl")
 
-            print(item_images)
-            print(backup_date)
-            print(image_filename)
-            print(image)
-            print(full_image_path)
-
             buy_url = item.get("purchaseUrl")
 
             card_html += f"""
