@@ -120,10 +120,10 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="a replica of Hack Club's Summer of Making Heidimarket, with accurate items and details">
+        <meta name="description" content="a replica of Hack Club's Summer of Making Heidimarket, with accurate items and details!">
         <meta property="og:title" content="orpheusmarket">
-        <meta property="og:description" content="a replica of Hack Club's Summer of Making Heidimarket, with accurate items and details">
-        <meta property="og:image" content="https://orpheusmarket.olive.hackclub.app/static/orpheus.png">
+        <meta property="og:description" content="a replica of Hack Club's Summer of Making Heidimarket, with accurate items and details!">
+        <meta property="og:image" content="https://orpheus.olive.hackclub.app/static/orpheus.png">
         <meta property="og:url" content="https://orpheus.olive.hackclub.app/">
         <meta property="og:type" content="website">
         <link rel="canonical" href="https://orpheus.olive.hackclub.app/">
