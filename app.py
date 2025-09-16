@@ -120,6 +120,13 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="a replica of Hack Club's Summer of Making Heidimarket, with accurate items and details">
+        <meta property="og:title" content="orpheusmarket">
+        <meta property="og:description" content="a replica of Hack Club's Summer of Making Heidimarket, with accurate items and details">
+        <meta property="og:image" content="https://orpheusmarket.olive.hackclub.app/static/orpheus.png">
+        <meta property="og:url" content="https://orpheus.olive.hackclub.app/">
+        <meta property="og:type" content="website">
+        <link rel="canonical" href="https://orpheus.olive.hackclub.app/">
         <link rel="stylesheet" href="static/style.css">
         <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
