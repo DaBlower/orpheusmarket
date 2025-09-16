@@ -44,7 +44,7 @@ for item in api_data:
 		}
 	else:
 		print(f"Failed to retrieve {id}, error code is {http_code.status_code}")
-print(f"Wrote API to {os.path.join(project_root, "api.json")}")
+print(f"Wrote API to {os.path.join(project_root, 'api.json')}")
 print(f"Wrote images to {image_path}")
 
 
