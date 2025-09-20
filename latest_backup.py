@@ -5,7 +5,7 @@ def get_latest_backup():
 
     os.makedirs("backups/backups", exist_ok=True)
 
-    directory = os.path.join(project_root, "backups", "backups")
+    directory = os.path.join(project_root, "static", "backups")
     files = os.listdir(directory)
 
     backups = [f for f in files if f[:4].isdigit() and "_" in f]
@@ -19,7 +19,7 @@ def get_latest_backup():
 def get_latest_images():
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
-    directory = os.path.join(project_root, "static", "backups")  # Fixed: Look in static/backups
+    directory = os.path.join(project_root, "static", "backups")  # look in static/backups
     if not os.path.exists(directory):
         return None
     files = os.listdir(directory)
@@ -31,6 +31,18 @@ def get_latest_images():
 
     latest = max(backups)
     return os.path.join(directory, latest, "images.json")
+
+def get_all_backups():
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+    
+    directory = os.path.join(project_root, "static", "backups")  # Fixed: Look in static/backups
+    if not os.path.exists(directory):
+        return []
+    files = os.listdir(directory)
+    
+    backups = [f for f in files if f[:4].isdigit() and "_" in f]
+    backups.sort(reverse=True)
+    return backups
 
 if __name__ == "__main__":
     latest_backup = get_latest_backup()
