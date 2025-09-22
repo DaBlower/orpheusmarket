@@ -83,7 +83,7 @@ def home():
             <img src="/static/noo.png" loading="lazy" class="item_image"/>
             <div class="card-content">
                 <h2 class="item-title"><span style="color: orange;">Warning:</span> This is a backup!</h2>
-                <p class="item_description">currently, the api i'm using is down D: so for now, this site will use a backup. It might be a bit outdated, so sorry for any inconvenience!</p>
+                <p class="item_description">right now, you are viewing a backup! This can either be because you selected a backup or the api I use is down D: It might be a bit outdated, so sorry for any inconvenience!</p>
             </div>
         </div>
         """
