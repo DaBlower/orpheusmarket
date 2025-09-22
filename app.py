@@ -1,6 +1,7 @@
 from flask import Flask, render_template_string, session, request
 from get_data import get_data
 from dotenv import load_dotenv
+import latest_backup
 import os
 
 load_dotenv() # load env
@@ -38,8 +39,13 @@ def home():
     card_html = ""
     region = request.args.get('region', session.get("region", "XX")).upper()
     shop = request.args.get('shop', session.get("shop", "blackMarket")).lower()
+    backup = request.args.get('backup', session.get("backup", "latest"))
 
     school = request.args.get('school', type=bool, default=False)
+
+    # get all backups for dropdown
+    all_backups = latest_backup.get_all_backups()
+    backup_options = [("latest", "Latest")] + [(b, b) for b in all_backups]
 
     if region not in allowed_regions:
         region = "XX"
@@ -47,11 +53,30 @@ def home():
     if shop not in allowed_shops:
         shop = "blackMarket"
 
+    backup_file = None
+    use_backup = False
+    backup_warn = False
+    if backup != "latest" and backup in all_backups:
+        backup_file = latest_backup.get_backup_path(backup)
+
+        backup_BM_ITEMS = get_data(regular=False, backup=backup_file)
+        backup_RG_ITEMS = get_data(regular=True, backup=backup_file)
+
+        backup_images = backup_BM_ITEMS[2]
+        backup_warn = backup_BM_ITEMS[1]
+        backup_BM_ITEMS = backup_BM_ITEMS[0]
+        backup_RG_ITEMS = backup_RG_ITEMS[0]
+        use_backup = True
+    else:
+        use_backup = False
+
     session["region"] = region
     session["shop"] = shop
+    session["backup"] = backup
 
     warning_html = ""
-    if warn == True:
+    current_warn = backup_warn if use_backup else warn
+    if current_warn == True:
         warning_html = """
         <div class="card">
             <img src="/static/noo.png" loading="lazy" class="item_image"/>
@@ -64,11 +89,17 @@ def home():
 
     shop_list = [] # used to carry either black market or regular shop items
 
-    if shop == "blackMarket":
-        shop_list = BM_ITEMS
+    if not use_backup:
+        if shop == "blackMarket":
+            shop_list = BM_ITEMS
+        else:
+            shop_list = RG_ITEMS
     else:
-        shop_list = RG_ITEMS
-
+        if shop == "blackMarket":
+            shop_list = backup_BM_ITEMS
+        else:
+            shop_list = backup_RG_ITEMS
+    current_images = backup_images if use_backup else images
     for item in shop_list:
         region_in_store = False
         if region in item["prices"]:
@@ -87,7 +118,7 @@ def home():
             if school:
                 description = description.replace("fuc", "duc")
 
-            item_images = images.get(str(item_id), {})
+            item_images = current_images.get(str(item_id), {})
             backup_date = item_images.get("date", "")
             image_filename = item_images.get("localImage", "")
             image = os.path.join("static", "backups", backup_date, image_filename) if image_filename else item.get("imageUrl")
@@ -167,6 +198,19 @@ def home():
                     </form>
                 </div>
             </div>
+            <div>
+                <h3>Choose a date</h3>
+                <p>You can view what the shop looked like at a specific date in time!</p>
+                <div class="region-container">
+                    <form method="get" action="/">
+                        <select id="date-selector" class="region-selector" name="backup" onchange="this.form.submit()">
+                            {% for backup_value, backup_label in backup_options %}
+                            <option value="{{backup_value}}" {% if backup == backup_value %}selected{% endif %}>{{backup_label}}</option>
+                            {% endfor %}
+                        </select>
+                    </form>
+                </div>
+            </div>
         </div>
         {{warning_html|safe}}
         <div class="card">
@@ -189,7 +233,7 @@ def home():
     </html>
     """
 
-    return render_template_string(html, card_html=card_html, region=region, shop=shop, warning_html=warning_html)
+    return render_template_string(html, card_html=card_html, region=region, shop=shop, warning_html=warning_html, backup_options=backup_options, backup=backup)
 
 
 
