@@ -2,6 +2,7 @@ from flask import Flask, render_template_string, session, request
 from get_data import get_data
 from dotenv import load_dotenv
 import latest_backup
+import datetime
 import os
 
 load_dotenv() # load env
@@ -45,7 +46,7 @@ def home():
 
     # get all backups for dropdown
     all_backups = latest_backup.get_all_backups()
-    backup_options = [("latest", "Latest")] + [(b, b) for b in all_backups]
+    backup_options = [("latest", "Latest")] + [(b, format_backup_date(b)) for b in all_backups]
 
     if region not in allowed_regions:
         region = "XX"
@@ -236,7 +237,14 @@ def home():
     return render_template_string(html, card_html=card_html, region=region, shop=shop, warning_html=warning_html, backup_options=backup_options, backup=backup)
 
 
-
+def format_backup_date(date):
+    try:
+        dt = datetime.datetime.strptime(date, '%Y-%m-%d_%H-%M-%S')
+        
+        return dt.strftime('%B %d, %Y')
+    except Exception as e:
+        print(f"Failed to convert date!: {e}")
+        return date
 
 if __name__ == "__main__":
     app.run(port=38015)
