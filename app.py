@@ -170,7 +170,10 @@ def home():
         <div class="bar">
             <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1><img src="/static/orpheus.png" class="dino"/></a>
         </div>
-        <div class="region">
+        <div class="card option">
+            <button id="toggle-btn" onclick="toggleDropdowns()">Show options</button>
+        </div>
+        <div class="region" style="display: none;">
             <div>
                 <h3>Choose your region</h3>
                 <p>Prices and availability vary by region</p>
@@ -213,6 +216,19 @@ def home():
                 </div>
             </div>
         </div>
+        <script>
+            function toggleDropdowns() {
+                var regionDiv = document.querySelector('.region');
+                var btn = document.querySelector('#toggle-btn');
+                if (regionDiv.style.display === 'none') {
+                    regionDiv.style.display = 'flex';
+                    btn.textContent = 'Hide Options';
+                } else {
+                    regionDiv.style.display = 'none';
+                    btn.textContent = 'Show Options';
+                }
+            }
+        </script>
         {{warning_html|safe}}
         <div class="card">
             <img src="/static/orpheus.png" loading="lazy" class="item_image"/>
