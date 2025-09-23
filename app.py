@@ -32,18 +32,24 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__))) # for fi
 def fu():
     return "flip you bot :D"
 
-
 @app.route("/")
 def home():
     # session stuff
     session.permanent = True
+    session.modified = True
     card_html = ""
     region = request.args.get('region', session.get("region", "XX")).upper()
     shop = request.args.get('shop', session.get("shop", "blackMarket")).lower()
     backup = request.args.get('backup', session.get("backup", "latest"))
-
+    options_visible = session.get('options_visible')
     school = request.args.get('school', type=bool, default=False)
 
+    if options_visible is None:
+        options_visible = False
+        session['options_visible'] = False
+
+    print(f"SESSION: {options_visible}")
+    
     # get all backups for dropdown
     all_backups = latest_backup.get_all_backups()
     backup_options = [("latest", "Latest")] + [(b, format_backup_date(b)) for b in all_backups]
@@ -171,9 +177,9 @@ def home():
             <a href="https://summer.hackclub.com/shop/black_market"><h1 class="orpheusmarket">orpheusmarket</h1><img src="/static/orpheus.png" class="dino"/></a>
         </div>
         <div class="card option">
-            <button id="toggle-btn" onclick="toggleDropdowns()">Show options</button>
+            <button id="toggle-btn" onclick="toggleDropdowns()">{{ 'Hide Options' if options_visible else 'Show Options'}}</button>
         </div>
-        <div class="region" style="display: none;">
+        <div class="region" style="display: {{ 'flex' if options_visible else 'none'}};">
             <div>
                 <h3>Choose your region</h3>
                 <p>Prices and availability vary by region</p>
@@ -220,13 +226,17 @@ def home():
             function toggleDropdowns() {
                 var regionDiv = document.querySelector('.region');
                 var btn = document.querySelector('#toggle-btn');
-                if (regionDiv.style.display === 'none') {
-                    regionDiv.style.display = 'flex';
-                    btn.textContent = 'Hide Options';
-                } else {
-                    regionDiv.style.display = 'none';
-                    btn.textContent = 'Show Options';
-                }
+                var isVisible = regionDiv.style.display !== 'none';
+                var newVisible = !isVisible;
+                
+                regionDiv.style.display = newVisible ? 'flex' : 'none';
+                btn.textContent = newVisible ? 'Hide Options' : 'Show Options';
+
+                fetch('/toggle_options', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({visible: newVisible})
+                }); // update session
             }
         </script>
         {{warning_html|safe}}
@@ -250,8 +260,22 @@ def home():
     </html>
     """
 
-    return render_template_string(html, card_html=card_html, region=region, shop=shop, warning_html=warning_html, backup_options=backup_options, backup=backup)
+    return render_template_string(html, card_html=card_html, region=region, shop=shop, warning_html=warning_html, backup_options=backup_options, backup=backup, options_visible=options_visible)
 
+@app.route("/toggle_options", methods=["POST"])
+def toggle_options():
+    data = request.get_json(silent=True)
+
+    if data and 'visible' in data:
+        session['options_visible'] = data['visible']
+        print(f"Explicitly set to {data['visible']}")
+    else:
+        current_state = session.get('options_visible', False)
+        session['options_visible'] = not current_state
+        print(f"Toggled to {session['options_visible']}")
+
+    session.modified = True
+    return '', 204
 
 def format_backup_date(date):
     try:
