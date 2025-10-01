@@ -2,6 +2,7 @@ import requests
 import json
 from datetime import datetime
 from urllib.parse import urlparse
+import logging
 import sys
 import os
 
@@ -9,28 +10,47 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import latest_backup
 
+date = datetime.today().strftime('%Y-%m-%d_%H-%M-%S')
+
+logs_dir = os.path.join(os.path.dirname(__file__), '..', 'logs')
+os.makedirs(logs_dir, exist_ok=True)
+
+
+log_filename = f"backup_{date}.log"
+logging.basicConfig(
+	level=logging.INFO,
+	format='%(asctime)s - %(levelname)s - %(message)s',
+	handlers=[
+		logging.StreamHandler(), # log to console
+		logging.FileHandler(os.path.join(logs_dir, log_filename))
+	]
+)
+
+logger = logging.getLogger(__name__)
+
 url = "https://summer.skyfall.dev/api/shop"
 
 api_data = requests.get(url=url).json()
 
-date = datetime.today().strftime('%Y-%m-%d_%H-%M-%S')
-
 try:
-	print(f"{date} Checking if we need a backup")
+	logger.info(f"{date} Checking if we need a backup")
 	latest_backup_path = latest_backup.get_latest_backup()
+	logger.info("Now doing API")
+	logger.debug(f"latest_backup_path = {latest_backup_path}")
 	api_match = False
 	img_match = False
 	if latest_backup_path:
 		with open(latest_backup_path, 'r') as back:
 			latest_back = json.load(back)
 			if json.dumps(latest_back, sort_keys=True) == json.dumps(api_data, sort_keys=True):
-				print("nein")
+				logger.info(f"The latest backup matches the api :D")
 				api_match = True
 	else:
-		# TODO: log error
-		pass
+		logger.error("latest_backup_path is None!")
 
 	latest_images_path = latest_backup.get_latest_images()
+	logger.info("Now doing images")
+	logger.debug(f"latest_images_path is {latest_images_path}")
 	if latest_images_path:
 		with open(latest_images_path, 'r') as img_json:
 			latest_images = json.load(img_json)
@@ -54,24 +74,23 @@ try:
 			}
 		
 		if json.dumps(latest_images, sort_keys=True) == json.dumps(expected_images, sort_keys=True):
-			print("nein for img")
+			logger.info("latest_images and excepted_images are equal!")
 			img_match = True
 		else:
-			print("Images differ from previous backup")
+			logger.info("Images differ from previous backup")
 	else:
-		# TODO: log error
-		pass
+		logger.error("latest_images_path is None!")
+
 	if api_match and img_match:
-		print(f"Both images and API match so we will skip the backup for {date}")
-		# TODO: log matching so not making backup
+		logger.info(f"Both images and API match so we will skip the backup for {date}")
 		sys.exit(42)
 	elif api_match:
-		print(f"API matches but images differ so we will do a backup of everything anyways because obob is lazy :D")
+		logger.info(f"API matches but images differ so we will do a backup of everything anyways because obob is lazy :D")
 	else:
-		print("API or images differ so we will do a full backup")
+		logger.info("Images differ so we will do a full backup")
 
 except Exception as e:
-	print(f"Failed to open api.json or images.json in previous backup at {latest_backup_path}")
+	logger.error(f"Failed to open api.json or images.json in previous backup at {latest_backup_path}: {e}")
 
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
@@ -95,11 +114,11 @@ for item in api_data:
 		with open(os.path.join(image_path, image_name), "wb") as img:
 			for block in http_code.iter_content(chunk_size=8192):
 				img.write(block)
-				print("Wrote Block")
+				logger.debug("Wrote Block")
 				blocks +=1
-		print(f"Wrote {blocks} blocks from {id}")
+		logger.info(f"Wrote {blocks} blocks from item {id}")
 		items -= 1
-		print(f"{items} images left!")
+		logger.info(f"{items} images left!")
 		images[str(id)] = {
 			"localImage": image_name,
 			"remoteImage": image_url,
@@ -107,14 +126,14 @@ for item in api_data:
 			"ext": ext
 		}
 	else:
-		print(f"Failed to retrieve {id}, error code is {http_code.status_code}")
-print(f"Wrote images to {image_path}")
+		logger.error(f"Failed to retrieve {id}, error code is {http_code.status_code}")
+logger.info(f"Wrote images to {image_path}")
 
 
 with open(os.path.join(project_root, "..", "static", "backups", date, "api.json"), "w", encoding="utf-8") as f:
     json.dump(api_data, f, ensure_ascii=False, indent=4)
 
-print(f'Wrote API to {os.path.join(project_root, "..", "static", "backups", date, "api.json")}')
+logger.info(f'Wrote API to {os.path.join(project_root, "..", "static", "backups", date, "api.json")}')
 
 src_folder = image_path
 
@@ -123,5 +142,6 @@ images_json_path = os.path.join(src_folder, "images.json")  # Fixed: Use dst_fol
 try:
     with open(images_json_path, "w", encoding="utf-8") as f:
         json.dump(images, f, ensure_ascii=False, indent=4)
+    logger.info(f"Dumped images.json to {images_json_path}")
 except Exception as e:
-    print(f"Failed to write images.json: {e}")
+    logger.error(f"Failed to write images.json: {e}")
