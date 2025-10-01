@@ -1,13 +1,32 @@
 import requests
 import json
-import shutil
 from datetime import datetime
 from urllib.parse import urlparse
+import sys
 import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+import latest_backup
 
 url = "https://summer.skyfall.dev/api/shop"
 
 api_data = requests.get(url=url).json()
+
+try:
+	latest_backup_path = latest_backup.get_latest_backup()
+	if latest_backup_path:
+		with open(latest_backup_path, 'r') as back:
+			latest_back = json.load(back)
+			if json.dumps(latest_back, sort_keys=True) == json.dumps(api_data, sort_keys=True):
+				print("nein")
+				exit()
+	else:
+		# TODO: log error
+		pass
+except Exception as e:
+	print(f"Failed to open api.json in previous backup at {latest_backup_path}")
+
 date = datetime.today().strftime('%Y-%m-%d_%H-%M-%S')
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
@@ -44,12 +63,13 @@ for item in api_data:
 		}
 	else:
 		print(f"Failed to retrieve {id}, error code is {http_code.status_code}")
-print(f"Wrote API to {os.path.join(project_root, 'api.json')}")
 print(f"Wrote images to {image_path}")
 
 
 with open(os.path.join(project_root, "..", "static", "backups", date, "api.json"), "w", encoding="utf-8") as f:
     json.dump(api_data, f, ensure_ascii=False, indent=4)
+
+print(f"Wrote API to {os.path.join(project_root, "..", "static", "backups", date, "api.json")}")
 
 src_folder = image_path
 
