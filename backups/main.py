@@ -69,7 +69,7 @@ print(f"Wrote images to {image_path}")
 with open(os.path.join(project_root, "..", "static", "backups", date, "api.json"), "w", encoding="utf-8") as f:
     json.dump(api_data, f, ensure_ascii=False, indent=4)
 
-print(f"Wrote API to {os.path.join(project_root, "..", "static", "backups", date, "api.json")}")
+print(f'Wrote API to {os.path.join(project_root, "..", "static", "backups", date, "api.json")}')
 
 src_folder = image_path
 
