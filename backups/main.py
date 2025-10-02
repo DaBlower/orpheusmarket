@@ -64,9 +64,11 @@ try:
 			latest_images = json.load(img_json)
 
 		# remove date for fair comparison (the date will always be different lol)
-		for key in latest_images:
+		for key in list(latest_images.keys()):
 			if 'date' in latest_images[key]:
 				del latest_images[key]['date']
+			if 'id' in latest_images[key]:
+				del latest_images[key]["id"]
 
 		# build expected new images
 		expected_images = {}
@@ -81,6 +83,9 @@ try:
 				"ext": ext
 			}
 		
+		logger.debug(f"Latest images\n{latest_images}")
+		logger.debug(f"Expected images\n{expected_images}")
+
 		if json.dumps(latest_images, sort_keys=True) == json.dumps(expected_images, sort_keys=True):
 			logger.info("latest_images and expected_images are equal!")
 			img_match = True
