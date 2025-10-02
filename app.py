@@ -3,6 +3,7 @@ from get_data import get_data
 from dotenv import load_dotenv
 import latest_backup
 import datetime
+import time
 import os
 
 load_dotenv() # load env
@@ -210,7 +211,7 @@ def home():
             </div>
             <div>
                 <h3>Choose a date</h3>
-                <p>You can view what the shop looked like at a specific date in time!</p>
+                <p>You can view what the shop looked like at a specific date in time (all in utc!)</p>
                 <div class="region-container">
                     <form method="get" action="/">
                         <select id="date-selector" class="region-selector" name="backup" onchange="this.form.submit()">
@@ -281,7 +282,15 @@ def format_backup_date(date):
     try:
         dt = datetime.datetime.strptime(date, '%Y-%m-%d_%H-%M-%S')
         
-        return dt.strftime('%B %d, %Y')
+        local_tz = datetime.datetime.now().astimezone().tzinfo
+
+        dt_local = dt.replace(tzinfo=local_tz)
+
+        dt_utc = dt_local.astimezone(datetime.timezone.utc)
+
+        formatted = dt_utc.strftime(f'%b %d, %Y %I:%M %p')
+
+        return formatted.replace('AM', 'am').replace('PM', 'pm')
     except Exception as e:
         print(f"Failed to convert date!: {e}")
         return date

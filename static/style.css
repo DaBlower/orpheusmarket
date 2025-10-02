@@ -17,6 +17,27 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     overflow: hidden;
 }
+.region-selector {
+    width: 200px;
+    box-sizing: border-box;
+
+    padding: 12px 16px;
+    font-size: 1.1em;
+    font-family: Arial, sans-serif;
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+.region-selector option{
+    white-space: normal; /* allow wrapping */
+    word-wrap: break-word; /* break longer words if needed */
+    overflow-wrap: break-word;
+}
+.region-selector:focus {
+    border-color: #000;
+    outline: none;
+}
+
 #toggle-btn{
     margin: 0;
     padding: 1rem 2rem;
@@ -55,7 +76,12 @@ body {
     .region {
         flex-direction: row;
         justify-content: center;
-        gap: 10rem;
+        gap: 15rem;
+    }
+
+    .region > div {
+        width: 200px;
+        flex-shrink: 0;
     }
 }
 
@@ -71,18 +97,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
 }
-.region-selector{
-    padding: 12px 16px;
-    font-size: 1.1em;
-    font-family: Arial, sans-serif;
-    border: 2px solid #000;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-}
-.region-selector:focus {
-    border-color: #000;
-    outline: none;
-}
+
 .shell-icon{
     width: 1.2rem;
     height: 1.2rem;
