@@ -64,9 +64,11 @@ try:
 			latest_images = json.load(img_json)
 
 		# remove date for fair comparison (the date will always be different lol)
-		for key in latest_images:
+		for key in list(latest_images.keys()):
 			if 'date' in latest_images[key]:
 				del latest_images[key]['date']
+			if 'id' in latest_images[key]:
+				del latest_images[key]["id"]
 
 		# build expected new images
 		expected_images = {}
