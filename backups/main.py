@@ -81,6 +81,9 @@ try:
 				"ext": ext
 			}
 		
+		logger.debug(f"Latest images\n{latest_images}")
+		logger.debug(f"Expected images\n{expected_images}")
+
 		if json.dumps(latest_images, sort_keys=True) == json.dumps(expected_images, sort_keys=True):
 			logger.info("latest_images and expected_images are equal!")
 			img_match = True
