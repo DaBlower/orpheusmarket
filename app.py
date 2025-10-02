@@ -211,7 +211,7 @@ def home():
             </div>
             <div>
                 <h3>Choose a date</h3>
-                <p>You can view what the shop looked like at a specific date in time (all in utc!)</p>
+                <p>You can view what the shop looked like at a specific date in time (all in your timezone!)</p>
                 <div class="region-container">
                     <form method="get" action="/">
                         <select id="date-selector" class="region-selector" name="backup" onchange="this.form.submit()">
@@ -224,6 +224,35 @@ def home():
             </div>
         </div>
         <script>
+            // this basically converts dates from utc to ur time zone :D
+            document.addEventListener('DOMContentLoaded', function(){
+                const dateSelector = document.getElementById('date-selector');
+                if (!dateSelector) return;
+
+                for (const option of dateSelector.options) {
+                    const isoString = option.textContent;
+                    if (isoString === 'Latest' || !isoString.includes('T')) { // all dates have T in them
+                        continue;
+                    }
+
+                    try {
+                        const date = new Date(isoString)
+                        const formattedLocal = date.toLocaleString(undefined, {
+                            month: 'short',
+                            day: 'numeric',
+                            year: 'numeric',
+                            hour: 'numeric',
+                            minute: '2-digit',
+                            hour12: true,
+                            timeZoneName: 'short'
+                        });
+
+                        option.textContent = formattedLocal;
+                    } catch (e){
+                        console.error("couldn't parse date:", isoString, e);
+                    }
+                }
+            })
             function toggleDropdowns() {
                 var regionDiv = document.querySelector('.region');
                 var btn = document.querySelector('#toggle-btn');
@@ -283,14 +312,9 @@ def format_backup_date(date):
         dt = datetime.datetime.strptime(date, '%Y-%m-%d_%H-%M-%S')
         
         local_tz = datetime.datetime.now().astimezone().tzinfo
+        dt_local = dt.replace(tzinfo=local_tz) # assume the backup was created on the server's local time
 
-        dt_local = dt.replace(tzinfo=local_tz)
-
-        dt_utc = dt_local.astimezone(datetime.timezone.utc)
-
-        formatted = dt_utc.strftime(f'%b %d, %Y %I:%M %p')
-
-        return formatted.replace('AM', 'am').replace('PM', 'pm')
+        return dt_local.astimezone(datetime.timezone.utc).isoformat()
     except Exception as e:
         print(f"Failed to convert date!: {e}")
         return date
