@@ -9,7 +9,7 @@ import sys
 import os
 
 max_retries = 5 # for downloading images + api
-retry_delay = 10 # seconds
+retry_delay = 5 # seconds
 max_workers = 10 # number of parallel downloads
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -119,7 +119,7 @@ def download_image(item, image_path, date):
 	success = False
 	for attempt in range(max_retries):
 		try:
-			http_code = requests.get(image_url, stream=True, timeout=30)
+			http_code = requests.get(image_url, stream=True, timeout=20)
 			if http_code.status_code == 200:
 				blocks = 0
 				image_name = str(id)+ext
