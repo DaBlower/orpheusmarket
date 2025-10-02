@@ -1,10 +1,14 @@
 import requests
 import json
+import time
 from datetime import datetime
 from urllib.parse import urlparse
 import logging
 import sys
 import os
+
+max_retries = 3 # for downloading images + api
+retry_delay = 2 # seconds
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -104,29 +108,44 @@ images = {}
 
 for item in api_data:
 	image_url = item["imageUrl"]
-	http_code = requests.get(image_url, stream=True)
 	path = urlparse(image_url).path
 	ext = os.path.splitext(path)[1]
 	id = item["id"]
-	if http_code.status_code == 200:
-		blocks = 0
-		image_name = str(id)+ext
-		with open(os.path.join(image_path, image_name), "wb") as img:
-			for block in http_code.iter_content(chunk_size=8192):
-				img.write(block)
-				logger.debug("Wrote Block")
-				blocks +=1
-		logger.info(f"Wrote {blocks} blocks from item {id}")
-		items -= 1
-		logger.info(f"{items} images left!")
-		images[str(id)] = {
-			"localImage": image_name,
-			"remoteImage": image_url,
-			"date": date,
-			"ext": ext
-		}
-	else:
-		logger.error(f"Failed to retrieve {id}, error code is {http_code.status_code}")
+
+	success = False
+	for attempt in range(max_retries):
+		try:
+			http_code = requests.get(image_url, stream=True, timeout=10)
+		
+			if http_code.status_code == 200:
+				blocks = 0
+				image_name = str(id)+ext
+				with open(os.path.join(image_path, image_name), "wb") as img:
+					for block in http_code.iter_content(chunk_size=8192):
+						img.write(block)
+						logger.debug("Wrote Block")
+						blocks +=1
+				logger.info(f"Wrote {blocks} blocks from item {id}")
+				items -= 1
+				logger.info(f"{items} images left!")
+				images[str(id)] = {
+					"localImage": image_name,
+					"remoteImage": image_url,
+					"date": date,
+					"ext": ext
+				}
+				success = True
+				break
+			else:
+				logger.error(f"Attempt {attempt + 1} failed for {id}, error code is {http_code.status_code}")
+		except requests.RequestException as e:
+			logger.warning(f"Attempt {attempt + 1} failed for {id}: {e}")
+	
+	if attempt < max_retries - 1:
+		logger.info(f"Retrying {id} in {retry_delay} seconds...")
+		time.sleep(retry_delay)
+if not success:
+	logger.error(f"Failed to retrieve {id} after {max_retries} attempts. Skipping.")
 logger.info(f"Wrote images to {image_path}")
 
 
