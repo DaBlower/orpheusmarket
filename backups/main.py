@@ -49,6 +49,8 @@ try:
 			if json.dumps(latest_back, sort_keys=True) == json.dumps(api_data, sort_keys=True):
 				logger.info(f"The latest backup matches the api :D")
 				api_match = True
+			else:
+				logger.info("API differs from previous backup")
 	else:
 		logger.error("latest_backup_path is None!")
 
@@ -94,12 +96,12 @@ try:
 		logger.info("Images differ so we will do a full backup")
 
 except Exception as e:
-	logger.error(f"Failed to open api.json or images.json in previous backup at {latest_backup_path}: {e}")
+	logger.error(f"Failed to open api.json or images.json in previous backup at {latest_backup_path}, did your backup stop midway last run?: {e}")
 
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
-image_path = os.path.join(project_root, "..", "static", "backups", date) # where images are stored
+image_path = os.path.abspath(os.path.join(project_root, "..", "static", "backups", date)) # where images are stored
 os.makedirs(image_path, exist_ok=True)
 
 items = len(api_data)
@@ -141,9 +143,9 @@ for item in api_data:
 		except requests.RequestException as e:
 			logger.warning(f"Attempt {attempt + 1} failed for {id}: {e}")
 	
-	if attempt < max_retries - 1:
-		logger.info(f"Retrying {id} in {retry_delay} seconds...")
-		time.sleep(retry_delay)
+		if attempt < max_retries - 1:
+			logger.info(f"Retrying {id} in {retry_delay} seconds...")
+			time.sleep(retry_delay)
 if not success:
 	logger.error(f"Failed to retrieve {id} after {max_retries} attempts. Skipping.")
 logger.info(f"Wrote images to {image_path}")
@@ -152,12 +154,12 @@ logger.info(f"Wrote images to {image_path}")
 with open(os.path.join(project_root, "..", "static", "backups", date, "api.json"), "w", encoding="utf-8") as f:
     json.dump(api_data, f, ensure_ascii=False, indent=4)
 
-logger.info(f'Wrote API to {os.path.join(project_root, "..", "static", "backups", date, "api.json")}')
+logger.info(f'Wrote API to {os.path.abspath(os.path.join(project_root, "..", "static", "backups", date, "api.json"))}')
 
 src_folder = image_path
 
 # dump image data
-images_json_path = os.path.join(src_folder, "images.json")  # Fixed: Use dst_folder (static/backups/{date})
+images_json_path = os.path.abspath(os.path.join(src_folder, "images.json"))  # use dst_folder (static/backups/{date})
 try:
     with open(images_json_path, "w", encoding="utf-8") as f:
         json.dump(images, f, ensure_ascii=False, indent=4)
