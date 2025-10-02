@@ -72,11 +72,11 @@ body {
     overflow: hidden;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     .region {
         flex-direction: row;
         justify-content: center;
-        gap: 15rem;
+        gap: 17rem;
     }
 
     .region > div {
