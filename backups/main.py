@@ -48,13 +48,6 @@ try:
 	if latest_backup_path:
 		with open(latest_backup_path, 'r') as back:
 			latest_back = json.load(back)
-			for key in list(latest_back.keys()):
-				if 'imageHash' in latest_back[key]:
-					del latest_back[key]['imageHash']
-
-			for key in list(api_data.keys()):
-				if 'imageHash' in api_data[key]:
-					del api_data[key]['imageHash']
 
 			if json.dumps(latest_back, sort_keys=True) == json.dumps(api_data, sort_keys=True):
 				logger.info(f"The latest backup matches the api :D")
