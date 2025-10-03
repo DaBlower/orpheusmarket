@@ -48,11 +48,22 @@ try:
 	if latest_backup_path:
 		with open(latest_backup_path, 'r') as back:
 			latest_back = json.load(back)
+			for key in list(latest_back.keys()):
+				if 'imageHash' in latest_back[key]:
+					del latest_back[key]['imageHash']
+
+			for key in list(api_data.keys()):
+				if 'imageHash' in api_data[key]:
+					del api_data[key]['imageHash']
+
 			if json.dumps(latest_back, sort_keys=True) == json.dumps(api_data, sort_keys=True):
 				logger.info(f"The latest backup matches the api :D")
 				api_match = True
 			else:
 				logger.info("API differs from previous backup")
+
+			logger.debug(f"latest_back after cleanup: {json.dumps(latest_back, sort_keys=True)}")
+			logger.debug(f"api_data after cleanup: {json.dumps(api_data, sort_keys=True)}")
 	else:
 		logger.error("latest_backup_path is None!")
 
